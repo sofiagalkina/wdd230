@@ -7,24 +7,26 @@
 header{
     display: grid;
     grid-template-columns: 30% 70%;
-    background-color:#C6A178;
+    background-color: #0E2F7D;
     color: azure;
     font-size: 24pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: #fc0 1px 0 10px;
     text-align: center;
     align-items: center;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 footer{
-    background-color: #C6A178;
+    background-color: #0E2F7D;
     color: aliceblue;
     text-align: center;
     
 }
 
 #datediv{
-    color: #E6D4C0;
+    color: yellow;
 }
 
 #warning{

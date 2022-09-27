@@ -1,0 +1,91 @@
+body{
+    background: -webkit-linear-gradient(to left, #ddefbb, #ffeeee);
+    background: linear-gradient(to left, #ddefbb, #fcd5ce);
+}
+
+h2, h1, h3{
+font-family: 'Reem Kufi Fun', sans-serif;
+font-weight: 700;
+text-align: center;
+}
+
+
+.header {
+
+    background-color: #e9edc9;
+    height: 150px;
+    text-align: center;
+    color: #344e41;
+    padding:10px;
+}
+
+
+.footer{
+    font-family:'Reem Kufi Fun', sans-serif; ;
+    background-color:  #e9edc9;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    clear: both;
+    color: #344e41;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.cards{
+
+    width:300px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.card-img img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-body h2{
+    text-align: center;
+}
+
+.card-body p{
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer button{
+    width: 150px;
+    background: black;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 6px;
+    margin-bottom: 10px;
+    transition: 0.4s;
+
+}
+
+.card-footer button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.cards:hover{
+    box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
+}

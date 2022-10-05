@@ -1,15 +1,41 @@
+
 #content{
-    margin: 0 auto; 
-    width: 50%;
+    margin: auto; 
     
 }
 
+
+#name{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+ul li{
+    text-align: center;
+} 
+
+
+img{
+    height: 200px;
+    width: 150px;
+
+}
+
+/*
+div{
+    text-align: center;
+    align-items: center;
+}
+*/
 header{
     display: grid;
     grid-template-columns: 30% 70%;
     background-color: #0E2F7D;
     color: azure;
-    font-size: 24pt;
+    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: #fc0 1px 0 10px;
     text-align: center;
@@ -18,11 +44,15 @@ header{
     border-radius: 25px;
 }
 
+
+
 footer{
     background-color: #0E2F7D;
     color: aliceblue;
     text-align: center;
-    
+    margin-top: 30px;
+    height: 85px;
+    padding-top: 30px;
 }
 
 #datediv{
@@ -31,13 +61,4 @@ footer{
 
 #warning{
     font-style: italic;
-}
-
-
-main{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.lesson-list{
-    font-size:x-small;
 }

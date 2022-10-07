@@ -1,0 +1,56 @@
+table{
+    border-collapse: collapse;
+    /*убираем пустые промежутки между ячейками*/
+    border: 1px solid grey;
+    /*ну тут толшина стиль линии и цвет*/
+      width:600px;
+}
+th{/*граница ячеек заголовка*/
+    border: 1px solid grey;
+    width:20%;
+}
+
+td{/*граница ячеек тела таблицы*/
+    border: 1px solid grey;
+    width: 30%;
+}
+
+caption{
+    caption-side: bottom;
+    text-align: right;
+    padding: 10px 0;
+    font-size:14px;
+}
+
+.text{
+    font-size:40px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #1d2d44;
+    color:white;
+}
+.text2{
+font-size:30px;
+font-family: 'Bebas Neue', cursive;
+background-color: #7C7C7C;
+}
+.text3{
+    font-family: 'Bebas Neue', cursive;
+    font-size:20px;
+    background-color: #ECE4B7;
+    }
+.text4{
+        font-size:30px;
+        color: #000000;
+        }
+.text5{
+        font-size:25px;
+         color: #000000;
+         }
+.text6{
+        font-size:20px;
+        color: #000000;
+         }
+.text7{
+    font-family: 'Roboto Condensed', sans-serif;
+         font-size:16px;
+        }

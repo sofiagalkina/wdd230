@@ -48,3 +48,15 @@ h1{
 body{
     background-color: #507255;
 }
+
+
+.chamberpic{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.persona-one img{
+    height: 200px;
+    width: 300px;
+}

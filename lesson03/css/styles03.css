@@ -11,12 +11,14 @@
     max-height: 200px;
     display: flex;
     justify-content: space-between;
+    
+    
 }
 
 .box-wrapper{
     display: flex;
     align-items: center;
-    
+   
 }
 
 img{
@@ -25,11 +27,17 @@ img{
 }
 
 .small-box{
+
     border: 1px solid #170A1C;
     border-radius: 15px;
     margin-left: 15px;
     margin-right: 25px;
     padding: 5px;
+}
+
+.small-box:hover{
+    background-color: rgba(220,220,220,10);
+    transition: 30ms;
 }
 
 h1{

@@ -1,67 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Bootstrap reboot (для сброса стирлей)-->
-    <link rel="stylesheet" href="libs/bootstrep-reboot.min.css">
-    <!--Boorstrap сетка-->
-    <link rel="stylesheet" href="libs/bootstrep-grid.min.css">
-    <!--Шрифты с Google Fonts-->
-    <link rel="preconnect" href="https://fonts.gstati.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <!-- Ну а это уже наш файлик-->
-    <link rel="stylesheet" href="css/styles.css"
-</head>
-<body> 
-    <nav class="navbar">
-        <div class="container">
-            <h1 class="navbar-brand">Timbuktu</h1>
-        
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamber of commerce test</title>
+  <link rel="stylesheet" href="./css/styles.css">
 
-            <div class="navbar-wrap">
-               <ul class="navbar-menu">
-                <li><a class="delay" href="#">Discover</a></li>
-                <li><a class="delay" href="#">Directory</a></li>
-                <li><a class="delay" href="#">Join</a></li>
-                <li><a class="delay" href="#">Contact</a></li>
-               </ul>
-               <!--Решил подгрузить их логотипы-->
-               <a class="faceandin facebook" href="#"><img src="./img/znak-facebook.jpg" width="50" height="50" border="0"></a>
-               <a class="faceandin" href="#"><img src="./img/i.webp" width="50" height="50" border="0"></a>
-            </div>
-        </div>
-    </nav>
-  <!--<section class="flex">
-    <div>
-        <div class="Element">Event</div>
-        <div class="Element">Weathert</div>
-        <div class="Element">Join</div>
+</head>
+<body>
+
+
+  <div class="navigation-container">
+
+    <div class="left-nav-wrapper"> 
+      <div>
+        <img class="logo" src="images/chamber of commerce (2).png" alt="logo of chamber of commerce">
+      </div>
+      <ul class="chamber-name">
+        <li class="bigger-text"> Mountain Venture </li>
+        <li> Chamber of Commerce</li>
+      </ul>
+
     </div>
-    <div>
-        <div class="Element">Hero with site name and call to action</div>
-        <div class="Element">News Release</div>
+
+    <div class="middle-nav-wrapper">
+      <ul class="navigation-links"> 
+        <li>Disover </li> 
+        <li> Directory</li>
+        <li>Join</li>
+        <li>Contact</li>
+      </ul>
+
     </div>
-    
-    <div class="Element">
-        <table>
-            <tr>
-                <th>Spotlight1</th>
-            </tr>
-            <tr>
-                <th>Spotlight1</th>
-            </tr>
-            <tr>
-                <th>Spotlight1</th>
-            </tr>
-        </table>
+
+
+    <div class="right-nav-wrapper">
+      <div>
+        <img class="fb-logo" src="./images/fb-logo - Edited.png" alt="facebook logo">
+      </div>
+
+      <div>
+        <img class="linkedin-logo" src="./images/linkedin - Edited.png" alt="linkedin logo">
+      </div>
     </div>
-  </section> -->
+ 
+  </div>
+
+
   <section class="flex">
     <div class="Element">Event</div>
-    <div class="Element">Weathert</div>
+    <div class="Element">Weather</div>
     <div class="Element">Join</div>
     <div class="Elementbig">Hero with site name and call to action</div>
     <div class="Element">News Release</div>
@@ -79,6 +68,42 @@
         </table>
     </div>
     </section>
-    <footer class="footer"></footer>
+    
+    <footer class="footer"> 
+
+      <div class='footer-wrapper'>
+        <div class="left-footer-part">
+          <img src="./images/chamber of commerce (2).png" class="logo" alt="logo of mtn chamber of commerce">
+          <ul>
+            <li> Mountainventure Chamber of Commerce </li>
+            <li> 10 Rue De La Paix</li>
+            <li> Mountainventure, Mali 999 </li> 
+          </ul>
+
+        </div>
+
+        <div class="right-footer-part">
+          <ul>
+            <li> info@mountainventure.org</li>
+            <li> +996(554)545-076</li>
+            <li> location map</li>
+          </ul>
+
+
+        </div>
+        
+
+      </div>
+
+      <span id="lastModified"> date and time should be displayed here</span> 
+       <span> WDD230 Project |  Sofia Galkina  | </span> &copy; 2022
+
+
+    </footer>
+
+    <script src="./js/main.js"> </script>
+
+    
+  
 </body>
 </html>

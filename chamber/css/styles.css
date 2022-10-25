@@ -151,7 +151,13 @@ td{/*граница ячеек тела таблицы*/
     justify-content: space-around;
 }
 
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
+}
 .hero {
     width: 100%;
     height: 100%;

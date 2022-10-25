@@ -9,6 +9,7 @@
   <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css">
   <link rel="stylesheet" media="(max-width:576px)" href="./css/smartphone.css">
   <script src="https://kit.fontawesome.com/3136e7c99c.js" crossorigin="anonymous"></script>
+  <script defer src="./js/windchill.js"></script>
 
 
 
@@ -58,7 +59,14 @@
 
   <section class="flex">
     <div class="Element">Event</div>
-    <div class="Element">Weather</div>
+
+    <div class="Element weather">
+      <h1> Weather </h1>
+      <div>Temperature:  <span id="temperature"> Temperature </span></div>
+      <div>Windspeed:<span id="windspeed">Windspeed</span></div>
+      <div>Windchill:<span id="windchill">Windchill</span></div>
+
+    </div>
     <div class="Element">Join</div>
 
     <div class="Elementbig">
@@ -90,7 +98,7 @@
 
       <div class='footer-wrapper'>
         <div class="left-footer-part">
-          <img src="./images/chamber of commerce (2).png" class="logo" alt="logo of mtn chamber of commerce">
+          <img src="./images/chamber of commerce (2).webp" class="logo" alt="logo of mtn chamber of commerce">
           <ul>
             <li> Mountainventure Chamber of Commerce </li>
             <li> 10 Rue De La Paix</li>

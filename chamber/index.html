@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css">
   <link rel="stylesheet" media="(max-width:576px)" href="./css/smartphone.css">
+  <script src="https://kit.fontawesome.com/3136e7c99c.js" crossorigin="anonymous"></script>
 
 
 
@@ -20,7 +21,7 @@
 
     <div class="left-nav-wrapper"> 
       <div>
-        <img class="logo" src="images/chamber of commerce (2).png" alt="logo of chamber of commerce">
+        <img class="logo" src="./images/chamber of commerce (2).webp" alt="logo of chamber of commerce">
       </div>
       <ul class="chamber-name">
         <li class="bigger-text"> Mountain Venture </li>
@@ -43,11 +44,11 @@
 
     <div class="right-nav-wrapper">
       <div>
-        <img class="fb-logo" src="./images/fb-logo - Edited.png" alt="facebook logo">
+        <i class="fa-brands fa-facebook"></i>
       </div>
 
       <div>
-        <img class="linkedin-logo" src="./images/linkedin - Edited.png" alt="linkedin logo">
+        <i class="fa-brands fa-linkedin"></i>
       </div>
     </div>
  
@@ -59,7 +60,16 @@
     <div class="Element">Event</div>
     <div class="Element">Weather</div>
     <div class="Element">Join</div>
-    <div class="Elementbig">Hero with site name and call to action</div>
+
+    <div class="Elementbig">
+      <picture class="hero">
+        <source media="(max-width: 200px)" srcset="./images/small.jpg">
+        <source media="(max-width: 500px)" srcset="./images/medium.jpg">
+        <source media="(max-width: 800px)" srcset="./images/large.jpg">
+        <img src="./images/large.jpg" alt = "assignment picture large size">
+      </picture>
+
+    </div>
     <div class="Element">News Release</div>
     <div class="Element">
         <table>

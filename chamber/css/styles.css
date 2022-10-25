@@ -55,7 +55,6 @@ ul{
 }
 
 .navigation-links{
-    display: inline;
     list-style: none;
     margin-top: 60px;
     margin-left: 50px;
@@ -71,6 +70,11 @@ ul{
     justify-content: flex-end;
     align-items: center;
     margin-right: 20px;
+    padding: 0 12px;
+}
+
+.right-nav-wrapper div {
+    padding: 10px;
 }
 
 
@@ -147,6 +151,14 @@ td{/*граница ячеек тела таблицы*/
     justify-content: space-around;
 }
 
+
+.hero {
+    width: 100%;
+    height: 100%;
+    border:  1 px red solid;
+}
+
+div .hero img {width: 100%; height: 100%;}
 /* 
 
 MEDIA QUERIES

@@ -38,3 +38,21 @@ else {
         loadImages(img);
     });
 }
+
+
+// working on a visit message 
+
+const visit = document.querySelector('#visit-message');
+
+let visitMessage = "This is your first visit to the page: ";
+let today = new Date();
+
+let lastVisitString = window.localStorage.getItem("last-visit");
+if (lastVisitString != null) {
+    let lastVisitDate = new Date(lastVisitString);
+    let dataDifference = Math.floor((today.getTime() - lastVisitDate.getTime()) / (24 * 60 * 60 * 1000));
+    visitMessage = `you last visited this page ${dataDifference} days ago`;
+}
+
+visit.textContent = visitMessage;
+window.localStorage.setItem("last-visit", today.toString());

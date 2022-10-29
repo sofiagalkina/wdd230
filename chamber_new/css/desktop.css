@@ -1,0 +1,128 @@
+@media (min-width: 992px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Nabla&family=Staatliches&display=swap');
+    i {
+        font-size: 3em;
+        margin-right: 10px;
+    }  
+
+    
+    .nav__logo {
+        width: 240px;
+        height: 240px;
+    }
+
+
+
+    .nav__title--h {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .main-container{
+        font-size: 25px;
+    }
+
+
+    .footer-container > * {
+        font-size: 25px;
+    }
+
+    .box ul {
+        display: flex;
+        visibility: visible;
+        list-style: none;
+        gap: 10px;
+        font-size: 28px;
+        margin: 0 20px;
+    }
+
+    .date {
+        font-weight: 500;
+    }
+
+
+    /*                        MAIN                        */
+
+
+    .spotlight-3 {
+        visibility: visible;
+        display: block;
+        
+    }
+
+/*
+
+    .main-container {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+      
+    }
+
+    #grid1 {
+        grid-row-start: 4;
+        grid-row-end: 1;
+    }
+*/
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  
+}
+
+.main-container > * {
+    width: 200px;
+    height: 200px;
+
+}
+
+#grid1 {
+    
+    background-color: pink;
+}
+
+#grid2 {
+    
+    background-color: darkblue;
+    order: 1;
+
+}
+#grid3 {
+    
+    background-color: dodgerblue;
+
+}#grid4 {
+    
+    background-color: darkcyan;
+
+}#grid5 {
+    
+    background-color: darkgreen;
+
+}#grid6 {
+    
+    background-color: darkslateblue;
+
+}
+
+
+h1, h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+h3, h4 {
+    font-family: 'Amiri Quran', serif;
+
+}
+    
+}
+
+
+
+
+

@@ -99,6 +99,25 @@
 
     /*        DISCOVER   */
 
+
+    .discover-image {
+      
+        opacity: 1;
+        display: block;
+      
+       
+        transition: .5s ease;
+        backface-visibility: hidden;
+        
+      }
+    
+      .cont:hover .discover-image {
+        opacity: 0.3;
+        cursor: pointer;
+        
+    
+      }
+    
   
     picture img {
         width: 450px;

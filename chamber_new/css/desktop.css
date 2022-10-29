@@ -119,6 +119,11 @@ h3, h4 {
     font-family: 'Amiri Quran', serif;
 
 }
+
+picture img {
+    width: 600px;
+    height: 700px;
+}
     
 }
 

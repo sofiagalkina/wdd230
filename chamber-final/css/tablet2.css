@@ -1,0 +1,96 @@
+@media (min-width: 768px) {
+    .nav__logo {
+        width: 180px;
+        height: 180px;
+    }
+
+
+
+    .nav__title--h {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+
+
+    i {
+        font-size: 2em;
+        margin-right: 10px;
+    }
+
+    .nav__container--title {
+        font-size: 1.5em;
+    }
+
+
+    /*main*/
+
+   
+
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    .iteam {
+        min-height: 200px;
+    }
+    .main-container :nth-child(1) {
+        order: 1;
+    }
+
+    .main-container :nth-child(2) {
+        order: 4;
+    }
+
+    .main-container :nth-child(3) {
+        order: 2;
+    }
+
+    .main-container :nth-child(4) {
+        order: 3;
+    }
+
+
+    .spotlight {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+    .spotlight-box{
+        width: 50%;
+    }
+
+    .event-wether-join{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 10px;
+    }
+    .join {
+        margin: 0;
+    visibility: visible;
+    display: block;
+    }
+    .event-wether{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .event{
+        width: 60%;
+        margin: 0;
+    }
+    .weather{
+        width: 40%;
+        margin: 0;
+    }
+  
+
+    /*footer*/
+    .footer-container>* {
+        font-size: 20px;
+    }
+}

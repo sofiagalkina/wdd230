@@ -59,7 +59,7 @@
     .main-container :nth-child(4) {
         order: 4;
     }
-    .iteam{
+    .item{
         margin: 0;
         padding: 0;
     }
@@ -132,4 +132,29 @@
     .spotlight:nth-child(3) {
         order: 7;
     }
+
+
+
+    .discover-image {
+ 
+        opacity: 1;
+        display: block;
+       
+        transition: .5s ease;
+        backface-visibility: hidden;
+        
+      }
+    
+      .cont:hover .discover-image {
+        opacity: 0.3;
+        cursor: pointer;
+        
+    
+      }
+    
+      picture img {
+        width: 600px;
+        height: 700px;
+    }
+        
 }

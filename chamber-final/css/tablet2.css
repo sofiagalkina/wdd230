@@ -35,7 +35,7 @@
         flex-wrap: wrap;
         font-size: 20px;
     }
-    .iteam {
+    .item {
         min-height: 200px;
     }
     .main-container :nth-child(1) {
@@ -93,4 +93,30 @@
     .footer-container>* {
         font-size: 20px;
     }
+
+
+    .discover-image {
+      
+        opacity: 1;
+        display: block;
+      
+       
+        transition: .5s ease;
+        backface-visibility: hidden;
+        
+      }
+    
+      .cont:hover .discover-image {
+        opacity: 0.3;
+        cursor: pointer;
+        
+    
+      }
+    
+  
+    picture img {
+        width: 450px;
+        height: 550px;
+    }
+
 }

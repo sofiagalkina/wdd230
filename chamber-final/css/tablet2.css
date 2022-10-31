@@ -64,7 +64,7 @@
         width: 50%;
     }
 
-    .event-wether-join{
+    .event-weather-join{
         display: flex;
         flex-direction: column;
         margin: 10px 0 10px;
@@ -74,7 +74,7 @@
     visibility: visible;
     display: block;
     }
-    .event-wether{
+    .event-weather{
         margin-top: 10px;
         display: flex;
         flex-direction: row;

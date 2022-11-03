@@ -1,4 +1,7 @@
 @media (min-width: 768px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Nabla&family=Staatliches&display=swap');
+
     .nav__logo {
         width: 180px;
         height: 180px;
@@ -117,6 +120,16 @@
     picture img {
         width: 450px;
         height: 550px;
+    }
+
+
+    h1, h2 {
+        font-family: 'Staatliches', cursive;
+    }
+    
+    h3, h4 {
+        font-family: 'Amiri Quran', serif;
+    
     }
 
 }

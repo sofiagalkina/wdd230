@@ -1,0 +1,20 @@
+* {
+    font-family: Ubuntu, sans-serif;
+
+}
+
+tbody tr:nth-child(even){
+    background-color: pink;
+}
+
+tbody tr:nth-child(odd){
+    background-color: cornflowerblue;
+}
+
+th, td {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}

@@ -1,0 +1,183 @@
+@media (min-width: 992px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Nabla&family=Staatliches&display=swap');
+
+    i {
+        font-size: 3em;
+        margin-right: 10px;
+    }
+
+
+    .nav__logo {
+        width: 240px;
+        height: 240px;
+    }
+
+
+
+    .nav__title--h {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .footer-container>* {
+        font-size: 25px;
+    }
+
+    .box ul {
+        display: flex;
+        visibility: visible;
+        list-style: none;
+        gap: 10px;
+        font-size: 28px;
+        margin: 0 20px;
+    }
+
+    .date {
+        font-weight: 500;
+    }
+
+    /*Main*/
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 25px;
+        max-height: 700px;
+    }
+    .main-container :nth-child(1) {
+        order: 2;
+    }
+
+    .main-container :nth-child(2) {
+        order: 1;
+    }
+
+    .main-container :nth-child(3) {
+        order: 3;
+    }
+
+    .main-container :nth-child(4) {
+        order: 4;
+    }
+    .item{
+        margin: 0;
+        padding: 0;
+    }
+    .hero{
+        display: flex;
+        width: 50%;
+        height: 415px;
+        margin: 10px 0;
+    }
+    .realnews{
+        display: flex;
+        width: 50%;
+        margin-top: 0 0 10px;
+        height: 200px;
+    }
+
+    .event-weather-join{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 0;
+        height: 800px;
+    }
+    .join {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .event-weather{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .event{
+        width: 100%;
+        margin: 10px 0 0;
+    }
+    .weather{
+        width: 100%;
+        margin: 0;
+
+    }
+    .spotlight{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: 627px;
+        margin: 10px 10px 0;
+        gap: 0;
+    }
+    .spotlight-box{
+        width: 92%;
+        height: 20%;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    .spotlight-3{
+        width: 92%;
+        visibility: visible;
+        display: block;
+        height: 20%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .spotlight:nth-child(1) {
+        order: 5;
+        background-color: pink;
+    }
+    .spotlight:nth-child(2) {
+        order: 6;
+    }
+    .spotlight:nth-child(3) {
+        order: 7;
+    }
+
+
+
+    .discover-image {
+ 
+        opacity: 1;
+        display: block;
+       
+        transition: .5s ease;
+        backface-visibility: hidden;
+        
+      }
+    
+      .cont:hover .discover-image {
+        opacity: 0.3;
+        cursor: pointer;
+        
+    
+      }
+    
+      picture img {
+        width: 600px;
+        height: 700px;
+    }
+
+    h4{
+        margin: 8px;
+    }
+
+    .main-container {
+        margin-left: 20px;
+    }
+
+
+    h1, h2 {
+        font-family: 'Staatliches', cursive;
+    }
+    
+    h3, h4, h6 {
+        font-family: 'Amiri Quran', serif;
+    
+    }
+        
+}

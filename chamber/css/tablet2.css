@@ -1,0 +1,135 @@
+@media (min-width: 768px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Nabla&family=Staatliches&display=swap');
+
+    .nav__logo {
+        width: 180px;
+        height: 180px;
+    }
+
+
+
+    .nav__title--h {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+
+
+    i {
+        font-size: 2em;
+        margin-right: 10px;
+    }
+
+    .nav__container--title {
+        font-size: 1.5em;
+    }
+
+
+    /*main*/
+
+   
+
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    .item {
+        min-height: 200px;
+    }
+    .main-container :nth-child(1) {
+        order: 1;
+    }
+
+    .main-container :nth-child(2) {
+        order: 4;
+    }
+
+    .main-container :nth-child(3) {
+        order: 2;
+    }
+
+    .main-container :nth-child(4) {
+        order: 3;
+    }
+
+
+    .spotlight {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+    .spotlight-box{
+        width: 50%;
+    }
+
+    .event-weather-join{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 10px;
+    }
+    .join {
+        margin: 0;
+    visibility: visible;
+    display: block;
+    }
+    .event-weather{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .event{
+        width: 60%;
+        margin: 0;
+    }
+    .weather{
+        width: 40%;
+        margin: 0;
+    }
+  
+
+    /*footer*/
+    .footer-container>* {
+        font-size: 20px;
+    }
+
+
+    .discover-image {
+      
+        opacity: 1;
+        display: block;
+      
+       
+        transition: .5s ease;
+        backface-visibility: hidden;
+        
+      }
+    
+      .cont:hover .discover-image {
+        opacity: 0.3;
+        cursor: pointer;
+        
+    
+      }
+    
+  
+    picture img {
+        width: 450px;
+        height: 550px;
+    }
+
+
+    h1, h2 {
+        font-family: 'Staatliches', cursive;
+    }
+    
+    h3, h4 {
+        font-family: 'Amiri Quran', serif;
+    
+    }
+
+}

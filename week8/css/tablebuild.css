@@ -1,20 +1,70 @@
-* {
-    font-family: Ubuntu, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+table, tr, th, td, caption {
+    border: .2px solid #a5afb6;
+    
+  }
+
 tbody tr:nth-child(even){
-    background-color: pink;
+    background-color: #e7ffed;
 }
 
 tbody tr:nth-child(odd){
-    background-color: cornflowerblue;
+    background-color: #e7f0ed;
 }
 
 th, td {
     text-align: center;
+    padding: 5px;
 }
 
 table {
     border-collapse: collapse;
+    box-shadow: 10px 10px 5px #888;
 }
+
+
+table caption {
+    background-color: #7eb8c2;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 2px;
+    box-shadow: 10px 10px 5px #888;
+
+}
+
+table thead {
+    background-color: #628ca6;
+    color: white;
+    font-size: 32px;
+}
+
+
+table tfoot{
+    background-color: #7fb9c2;
+    font-size: 16px
+}
+
+#highlight {
+    background-color: #628ca6;
+    color: white;
+}
+
+table tbody{
+    font-size: 20px;
+}
+

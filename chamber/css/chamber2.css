@@ -134,3 +134,42 @@ h3, h4 {
 
 }
 
+
+
+/* Join  */
+
+
+label.myInput {
+    display: block;
+    padding-top: 1rem;
+}
+
+label.myInput input, label.myInput textarea {
+    display: block;
+    font-size: 1.2rem;
+    padding: .5rem ;
+    width: 20rem;
+    max-width: 20rem;
+}
+
+label.myRadio{
+    display: block;
+}
+
+label.myRadio input{
+    margin-right: .5rem;
+    font-size: 1.3rem;
+
+}
+
+.mySubmit {
+    border-color: black;
+    background-color: pink;
+    color: black;
+}
+
+
+label.myInput input:required{
+    border-color: red;
+
+}

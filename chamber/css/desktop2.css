@@ -179,5 +179,33 @@
         font-family: 'Amiri Quran', serif;
     
     }
+
+/*      THANKYOU PAGE */
+
+.thankyou__content{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+    /*   JOIN   */
+
+    .join__section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 3rem;
+    }
+
+    .mySubmit{
+        background-color: cornflowerblue;
+        padding: 6px;
+        margin-top: 8px;
+        border: 1px solid black;
+    }
         
 }

@@ -168,8 +168,34 @@ label.myRadio input{
     color: black;
 }
 
-
+/*
 label.myInput input:required{
     border-color: red;
 
 }
+*/
+
+/* THANK YOU PAGE   */
+
+
+
+/* DISCOVER PAGE   */
+
+
+.join__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.mySubmit{
+    background-color: cornflowerblue;
+    padding: 6px;
+    margin-top: 8px;
+    border: 1px solid black;
+}
+

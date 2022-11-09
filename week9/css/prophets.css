@@ -1,0 +1,28 @@
+* {
+    background-color: lightgrey;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards section h2{
+    color: green;
+}
+
+.cards section {
+    background-color: #b9b9cc;
+    margin: 2rem;
+}
+
+/*
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+*/
+

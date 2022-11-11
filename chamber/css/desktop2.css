@@ -67,6 +67,7 @@
         padding: 0;
     }
     .hero{
+        background-image: url(/wdd230/chamber/images/Hong-Kong-China.jpg);
         display: flex;
         width: 50%;
         height: 415px;

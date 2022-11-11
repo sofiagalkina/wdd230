@@ -1,33 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
-* {
+@media (min-width: 992px) {
+  * {
     background-color: lightgrey;
 
-}
+ }
 
 h2 {
     font-family: 'Paytone One', sans-serif;
-}
+ }
 header{
     color: #4d4d96;
     text-align: center;
     font-family: 'Paytone One', sans-serif;
-}
+ }
+.cards {
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
 
-.cards section{
+.cards section h2{
+    color: #4d4d96;
+ }
+
+p, h2 {
+    background-color: #b9b9cc;
+ }
+
+.cards section {
+    height: 600px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 10px solid black;
-    margin: 10px;
-}
+    background-color: #b9b9cc;
+    border: 40px solid #b9b9cc;
+    margin: 6px;
+ }
 
-.cards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid black;
 }
-  
-

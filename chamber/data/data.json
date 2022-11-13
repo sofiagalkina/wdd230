@@ -1,16 +1,16 @@
 {
     "businesses": [
       {
-        "imageURL": "images/your-logo-here.png",
+        "imageURL": "images/business-1.png",
         "street": "2115 S Vista Avenue",
         "cityandzip": "Boise ID 83705",
         "phone":"(208) 342-9386",
-        "websiteURL": "https://idahowebsite.com",
+        "websiteURL": "https://idahowebsites.com",
         "name": "Idaho Websites"
       },
 
       {
-        "imageURL": "images/your-logo-here.png",
+        "imageURL": "images/business-2.png",
         "street": "4072 E Arch Drive",
         "cityandzip": "Meridian ID 83646",
         "phone":"(208) 631-0640",
@@ -19,7 +19,7 @@
       },
 
       {
-        "imageURL": "images/your-logo-here.png",
+        "imageURL": "images/business-3.png",
         "street": "1788 E Summerplace",
         "cityandzip": "Court Meridian ID 83646",
         "phone":"(208) 631-4984",
@@ -28,7 +28,7 @@
       },
 
       {
-        "imageURL": "images/your-logo-here.png",
+        "imageURL": "images/business-4.png",
         "street": "1215 3rd Street",
         "cityandzip": "Nampa ID 83651",
         "phone":"(208) 461-5070",
@@ -37,7 +37,7 @@
       },
 
       {
-        "imageURL": "images/your-logo-here.png",
+        "imageURL": "images/business-5.png",
         "street": "",
         "cityandzip": "Star ID 83669",
         "phone":"(208) 488-5810",
@@ -46,7 +46,7 @@
       },
 
       {
-        "imageURL": "images/your-logo-here.png",
+        "imageURL": "images/business-6.png",
         "street": "1725 E Overland",
         "cityandzip": "Road Meridian ID 83642",
         "phone":"(208) 888-4073",
@@ -55,7 +55,7 @@
       },
 
       {
-        "imageURL": "images/your-logo-here.png",
+        "imageURL": "images/business-7.png",
         "street": "1415 W Grove St",
         "cityandzip": "Boise ID 83702",
         "phone":"(208) 957-6480",
@@ -64,7 +64,7 @@
       },
 
       {
-        "imageURL": "images/your-logo-here.png",
+        "imageURL": "images/business-8.png",
         "street": "928 W Main St #100",
         "cityandzip": "Boise ID 83702",
         "phone":"(208) 571-7792",

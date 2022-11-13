@@ -1,31 +1,112 @@
 {
-    
+    "businesses": [
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      },
 
+      {
+        "imageURL": "images/your-logo-here.png",
+        "street": "2115 S Vista Avenue",
+        "cityandzip": "Boise ID 83705",
+        "phone":"(208) 342-9386",
+        "websiteURL": "https://idahowebsite.com",
+        "name": 1
+      }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+    ]
+  }

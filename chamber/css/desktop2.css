@@ -209,4 +209,39 @@
         border: 1px solid black;
     }
         
+
+
+
+
+    /*    DIRECTORY   */
+
+     #bizheader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+
+    /*  GRID VIEW   */
+
+
+    #cardview{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        border: 1px solid red;
+
+
+    }
+
+    #cardview section{
+    }
+   
 }

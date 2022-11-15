@@ -1,4 +1,4 @@
-const requestURL = 'https://sofiagalkina.github.io/wdd230/chamber/data/data.json';
+const requestURL = './data/data.json';
 
 
 

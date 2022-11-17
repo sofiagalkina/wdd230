@@ -10,7 +10,6 @@
     <link rel="shortcut icon" type="image/png" href="./favicon/favicon-16x16.png" />
     <link rel="stylesheet" media="(min-width:768px)" href="./css/tablet2.css">
     <link rel="stylesheet" media="(min-width:992px)" href="./css/desktop2.css">
-    <script src="./js/directory.js"></script>
 
 
 
@@ -68,26 +67,27 @@
     <section id="bizheader">
         <h1>Business Directory</h1>
         
-            <div class="listAndGrid"><i class="fa-solid fa-table-cells"></i> <!-- grid icon. don't forget to give this images ids -->
-                 <i class="fa-solid fa-list-ul"></i> <!--list icon-->
+            <div class="listAndGrid"><i class="fa-solid fa-table-cells" id="cardselect"></i> <!-- grid icon. don't forget to give this images ids -->
+                 <i class="fa-solid fa-list-ul" id="listselect"></i> <!--list icon-->
             </div>
     </section>
 
 
     <section id="cardview">
-        <!--<div>
+       <!--- <div>
             <img src="" >
             <p>123 Main Street, Boise, ID 87654 </p>
             <p>(208)234-4543</p>
             <p><a href="somesite.com">https://somesite.com</a></p>
         </div>
     -->
+    
     </section>
 
 
 
     <section id="listview">
-        <table>
+        <table class="center">
             <tr>
             <th> Name</th>
             <th> Address</th>
@@ -99,11 +99,11 @@
 
     </section>
 
-
-
-
-
 </main>  
+
+
+
+
 
 
     <!--Footer-->
@@ -133,6 +133,9 @@
 
 
     </footer>
+
+    <script src="./js/directory.js"></script>
+
 
 
 </body>

@@ -100,6 +100,14 @@ FOOTER
     padding-top: 10px;
 }
 
+.footer-container>* {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+
+
 /*    DISCOVER  */
 
 .discover_header {

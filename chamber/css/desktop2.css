@@ -222,7 +222,10 @@
         align-items: center;
         padding: 10px;
     }
-
+ 
+    #listview {
+        display: none;
+    }
 
     .center {
     margin-left: auto;
@@ -237,13 +240,14 @@
 
       th, td {
         text-align: center;
-        padding: 5px;
+        padding: 15px;
     }
     
     table {
         border-collapse: collapse;
         box-shadow: 10px 10px 5px #888;
     }
+    
     
  
 

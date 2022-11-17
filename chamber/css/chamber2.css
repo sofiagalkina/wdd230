@@ -256,13 +256,25 @@ label.myInput input:required{
         padding: 15px;
     }
 
-    section#listview table{
+    /*section#listview table{
         border-collapse: collapse;
         margin-bottom: 20px;
         margin-top: 20px;
+        
     }
+    */
+
     section#listview table tr:nth-child(odd){
         background-color: rgb(173, 190, 221);
       
     }
 
+    section#listview th{
+        display: none;
+    }
+
+    section#listview table td{
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }

@@ -200,6 +200,10 @@ label.myInput input:required{
 }
 
 /*    DIRECTORY     */
+  
+
+            /*      DIRECTORY CARD VIEW    */
+
 
 #listview {
     display: none;
@@ -236,3 +240,29 @@ label.myInput input:required{
 .listAndGrid i{
     font-size: 3rem;
 }
+
+
+
+/*         DIRECTORY LIST VIEW    */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14PX;
+
+    }
+
+    th, td {
+        text-align: center;
+        padding: 15px;
+    }
+
+    section#listview table{
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    section#listview table tr:nth-child(odd){
+        background-color: rgb(173, 190, 221);
+      
+    }
+

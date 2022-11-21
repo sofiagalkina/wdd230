@@ -90,7 +90,30 @@
         width: 40%;
         margin: 0;
     }
+
+
+    .weather {
+        background-color: rgb(168, 197, 255);
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #icon-src{
+        display: none;
+    }
+
+    .weather h2{
+        color: rgb(255, 254, 254);
+        text-shadow: 4px 4px #3b3b3b;
+    }
+
   
+
+
+
+
 
     /*footer*/
     .footer-container>* {
@@ -220,7 +243,7 @@
         }
 
         section#listview table tr td{
-            display: revert;
+            display: revert;  /* or display : table-cell */
         }
     
 

@@ -39,27 +39,10 @@
     height: 100px;
 }
 
-
-
-.box button{
-    margin: .2rem 2vw;
-    background: transparent;
-    border: none;
-    font-size: 2rem;
-    color: #555;
+ .hero-image{
+    width: 100%;
+    height: auto;
 }
-
-.box li:first-child{
-    display: block;
-    visibility: visible;
-}
-
- .responsive li{
-        display: block;
-        visibility: visible;
-    }
-    
-
 
 .nav__title--h {
     padding: 12px;

@@ -27,6 +27,8 @@
     }
 
 
+  
+
     /*main*/
 
    
@@ -145,7 +147,7 @@
         height: 550px;
     }
 
-
+/* FONTS AND STUFF */
     h1, h2 {
         font-family: 'Staatliches', cursive;
     }
@@ -197,6 +199,8 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 40px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     
     #cardview div{

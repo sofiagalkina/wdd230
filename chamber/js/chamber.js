@@ -1,7 +1,22 @@
+
 const LAT = "64.835365"
 const LON = "-147.776749"
 const API_key = "fc0a6c0132d6bc829f38fda505618929";
-const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${API_key}&units="imperial"`;
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${API_key}&units=imperial`;
+
+//const windchillobj = document.getElementById("windChill");
+//const windspeedobj = document.getElementById("windSpeed");
+
+//let windchillmsg = "N/A";
+//let temp = obj.main.temp;
+//let windspeed = obj.wind.speed;
+
+//if (temp <= 50 && windspeed > 3){
+ // let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
+//  windchillmsg = `${chill}°F`;
+//}
+//windspeedobj.textContent = windspeed;
+//windchillobj.textContent = windchillmsg;
 
 fetch(apiURL)
 .then((response) => response.json())

@@ -39,9 +39,27 @@
     height: 100px;
 }
 
-ul {
-    display: none;
+
+
+.box button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
 }
+
+.box li:first-child{
+    display: block;
+    visibility: visible;
+}
+
+ .responsive li{
+        display: block;
+        visibility: visible;
+    }
+    
+
 
 .nav__title--h {
     padding: 12px;
@@ -80,6 +98,7 @@ i:hover {
     color: rgb(255, 254, 254);
     text-shadow: 4px 4px #3b3b3b;
 }
+
 
 #icon-src{
     display: none;

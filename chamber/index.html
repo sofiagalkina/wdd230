@@ -11,6 +11,7 @@
     <link rel="stylesheet" media="(min-width:768px)" href="./css/tablet2.css">
     <link rel="stylesheet" media="(min-width:992px)" href="./css/desktop2.css">
     <script defer src="./js/chamber.js"></script>
+    <script defer src="./js/windchill.js"></script>
 
 
 
@@ -39,12 +40,12 @@
             </div>
 
             <div class="box">
-                <ul>
+                <button id="hamburgerBtn">&#9776;</button>
+                <ul id="primaryNav">
                     <li> <a href="./index.html" > Home</a> </li>
                     <li> <a href="./discover.html" >Discover</a> </li>
                     <li> <a href="./join.html"> Join</a> </li>
                     <li> <a href="./directory.html" >Directory</a> </li>
-                    <li> <a href="#">Contact</a> </li>
 
                 </ul>
 
@@ -62,8 +63,8 @@
     </header>
     <main class="main-container">
         <div class="hero item">
-            <h4></h4>
-        </div>
+            <img class="hero-image" src="./images/jezael-melgoza-layMbSJ3YOE-unsplash.jpg">
+        </div> 
         <div class="event-weather-join">
             <div class="join item">
                 <h4>Join</h4>
@@ -76,26 +77,41 @@
                 <div class="weather item">
                     
                     
-                    <div>
+                    <div class="temperature">
                         <span id="current-temp"></span> &deg;F
             
                     </div> 
+                    
 
                     <h2>Weather</h2>
 
                     <div>
                       <p> <span id="icon-src"></span></p>
                     </div>
-                    
-                    <div>
+
+                    <div class="figure">
                       <figure>
                         <img src="" alt="" id="weathericon"/>
                   
                         <figcaption id="figcaption"></figcaption>
                       </figure>
+                      <hr>
+                      <div class="wind">
+                        <p> Wind Speed:  <span id="windSpeed"></span></p>
+                        <p> Wind Chill:  <span id="windchill"></span> </p>
+                    </div>
                     </div>
                      
+                        
+                    
+
+                  
+
+                   
+                    
+                     
                 </div>
+                
             </div>
         </div>
 
@@ -132,6 +148,7 @@
         </div>
 
         <div>
+            <div>
             <h3>Mountventure Chamber of Commerce</h3>
             <h4>10 Rue De La Paix</h4>
             <h4>Mountventure, Mali 999</h4>
@@ -142,12 +159,14 @@
             <h4>+(208) 497-1871</h4>
             <h4>Location Map</h4>
         </div>
-
-        <hr>
+    </div>
+    <div>
+        
         <span> &copy Mountventure Chamber</span>
         <h4><strong> Sofia Galkina</strong></h4>
         <h6> WDD 230 Project</h6>
         <h6> Last modicication: <span class="lastModified"></span></h6>
+    </div>
 
 
 

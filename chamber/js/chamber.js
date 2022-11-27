@@ -50,14 +50,18 @@ if (currentTemp < 50 && windchillobj > 3){
 */
 function displayWindhill(obj){
 let windSpeedMiles = obj.wind.speed;
-console.log(windSpeedMiles);
+//
 let degreesTemp = obj.main.temp;
+// 
+
 let windchillobj = document.querySelector("#windChill");
 
-if (degreesTemp < 50 && windSpeedMiles > 3){
-  windchillobj.textContent = 'privet ))))))';
+if (degreesTemp > 50 && windSpeedMiles > 3){
+  let chill = Math.round((35.74 + (0.6215 * degreesTemp))-(35.75 * Math.pow(windSpeedMiles,0.16)) + (0.4275*degreesTemp*Math.pow(windSpeedMiles,0.16)));
+  windchillobj.textContent = `${chill}°F`;
+
 } else{
-  windchillobj.textContent = 'nu che';
+  windchillobj.textContent = 'N/A';
 };
 
 

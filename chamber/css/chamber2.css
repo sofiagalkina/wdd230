@@ -70,7 +70,7 @@ i:hover {
     margin: 10px 0 0;
 }
 
-
+/*  WEATHER PART   */
 .weather {
     background-color: rgb(168, 197, 255);
     display: flex;
@@ -79,10 +79,26 @@ i:hover {
     justify-content: center;
     text-align: center;
 }
+.temperature{
+    font-weight: 700;
+}
 
+#figcaption{
+    margin-bottom: 3px;
+}
+
+.wind{
+    position: relative;
+    top: 6px;
+}
 .weather h2{
     color: rgb(255, 254, 254);
     text-shadow: 4px 4px #3b3b3b;
+}
+
+#weathericon{
+    height: 35px;
+    width: 35px;
 }
 
 

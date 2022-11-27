@@ -79,6 +79,9 @@
     visibility: visible;
     display: block;
     }
+
+
+    /*  WEATHER    */
     .event-weather{
         margin-top: 10px;
         display: flex;
@@ -91,6 +94,11 @@
     .weather{
         width: 40%;
         margin: 0;
+    }
+
+    .temperature{
+        font-size: 25px;
+        margin-top: 10px;
     }
 
 
@@ -111,7 +119,10 @@
         text-shadow: 4px 4px #3b3b3b;
     }
 
-  
+  #weathericon{
+    width: 70px;
+    height: 70px;
+  }
 
 
 

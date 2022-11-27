@@ -22,9 +22,12 @@ fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
   showWeather(jsObject);
+  displayWindhill(jsObject);
 });
 
 function showWeather(obj){
+    let windspeedobj = document.querySelector("#windSpeed");
+    windspeedobj.textContent = obj.wind.speed;
     let currentTemp = document.querySelector("#current-temp");
     let iconpath = document.querySelector("#icon-src");
     let weathericon = document.querySelector("#weathericon");
@@ -35,5 +38,27 @@ function showWeather(obj){
     weathericon.setAttribute("src", iconURL);
     weathericon.setAttribute("alt", obj.weather[0].description);
     figurecaption.textContent = obj.weather[0].main;
+
+}
+
+
+/*let windchillobj = document.querySelector("#windChill");
+if (currentTemp < 50 && windchillobj > 3){
+  let chill = Math.round((35.74 + (0.6215 * currentTemp))-(35.75 * Math.pow(windspeedobj,0.16)) + (0.4275*currentTemp*Math.pow(windchillobj,0.16)));
+  windchillobj.textContent = `${chill}°F`;
+}
+*/
+function displayWindhill(obj){
+let windSpeedMiles = obj.wind.speed;
+console.log(windSpeedMiles);
+let degreesTemp = obj.main.temp;
+let windchillobj = document.querySelector("#windChill");
+
+if (degreesTemp < 50 && windSpeedMiles > 3){
+  windchillobj.textContent = 'privet ))))))';
+} else{
+  windchillobj.textContent = 'nu che';
+};
+
 
 }

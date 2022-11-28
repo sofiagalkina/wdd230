@@ -10,6 +10,7 @@
     <link rel="shortcut icon" type="image/png" href="./favicon/favicon-16x16.png" />
     <link rel="stylesheet" media="(min-width:768px)" href="./css/tablet2.css">
     <link rel="stylesheet" media="(min-width:992px)" href="./css/desktop2.css">
+    <script defer src="./js/main.js"></script>
     <script defer src="./js/chamber.js"></script>
 
 
@@ -23,7 +24,7 @@
     <!--Header-->
     <header class="nav__container">
         <div class="nav__container--title">
-            <span class="date">Monday, novenber 34, 1293</span>
+            <span id="date"></span>
 
         </div>
 
@@ -39,7 +40,7 @@
             </div>
 
             <div class="box">
-                <button id="hamburgerBtn">&#9776;</button>
+               <!-- <button id="hamburgerBtn">&#9776;</button>  -->
                 <ul id="primaryNav">
                     <li> <a href="./index.html" > Home</a> </li>
                     <li> <a href="./discover.html" >Discover</a> </li>
@@ -114,23 +115,22 @@
 
 
         <div class="realnews item">
-            <img src="./images/publicmarket.jpg">
-            <h3>Mount Place Market</h3>
+        
         </div>
 
         <div class="spotlight item">
             <div class="item spotlight-box">
-                <h4>Spotlight 2 </h4>
+                <img src="./images/publicmarket.jpg">
 
             </div>
 
             <div class="item spotlight-box">
-                <h4>Spotlight 1</h4>
+                <img src="./images/monorail.jpg">
 
             </div>
 
             <div class="item spotlight-box spotlight-3">
-                <h4>Spotlight 3 </h4>
+                <img src="./images/publiclibrary.jpg">
 
 
             </div>
@@ -160,10 +160,11 @@
     </div>
     <div>
         
-        <span> &copy Mountventure Chamber</span>
+        <span><span id="year"></span> &copy Mountventure Chamber    </span></span>
         <h4><strong> Sofia Galkina</strong></h4>
         <h6> WDD 230 Project</h6>
-        <h6> Last modicication: <span class="lastModified"></span></h6>
+    
+        <h6> Last modicication: <span id="modify"></span></h6>
     </div>
 
 

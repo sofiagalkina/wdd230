@@ -241,6 +241,20 @@
 
 
 
+    .spotlight-box img{
+        width: 300px;
+        height: 180px;
+        margin: 0 auto;
+    }
+
+    .spotlight-3 img{
+        position: relative;
+        left: 25px;
+        top: 10px;
+    }
+
+
+
     .discover-image {
  
         opacity: 1;

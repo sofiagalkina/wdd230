@@ -223,12 +223,13 @@
     .figure hr{
         border: 1px solid black;
         height: 1px;
-        width: 140px;
+        width: 200px;
         position: relative;
         bottom: 55px;
     }
 
     .weather h2{
+        font-size: 27px;
         color: rgb(255, 254, 254);
         text-shadow: 4px 4px #3b3b3b;
         margin-bottom: 40px;
@@ -349,14 +350,21 @@
         width: 100%;
     }
 
+    .realnews p{
+        padding-top: 20px;
+    }
     .realnews-absolute{
         position: relative;
     }
 
-    .realnews-container{
-        position: absolute;
-       
-    }
+   .realnews-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
 
 
 

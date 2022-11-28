@@ -296,6 +296,30 @@
     }
 
 
+    /*NEWS ITEM STYLES  */
+
+    .realnews{
+        position: relative;
+        font-size: 20px;
+    }
+    .realnews h1,h2{
+        font-size: 20px;
+    }
+
+    .realnews img{
+        width: 100%;
+    }
+
+    .realnews-absolute{
+        position: relative;
+    }
+
+    .realnews-container{
+        position: absolute;
+       
+    }
+
+
 
     .discover-image {
  

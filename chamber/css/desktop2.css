@@ -1,6 +1,7 @@
 @media (min-width: 992px) {
 
     @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Nabla&family=Staatliches&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
     i {
         font-size: 3em;
@@ -21,6 +22,11 @@
 
 
     .nav__title--h {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .nav__title--h  h2 {
         font-size: 40px;
         line-height: 40px;
         text-align: center;
@@ -359,6 +365,10 @@
     h3, h4, h6 {
         font-family: 'Amiri Quran', serif;
     
+    }
+
+    p { 
+        font-family: 'Roboto Mono', monospace;
     }
 
 /*      THANKYOU PAGE */

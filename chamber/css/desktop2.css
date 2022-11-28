@@ -368,6 +368,18 @@
 
 
 
+    .event {
+    font-size: 20px;
+}
+
+   .event{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+
     .discover-image {
  
         opacity: 1;

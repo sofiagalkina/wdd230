@@ -7,6 +7,11 @@
         height: 180px;
     }
 
+    .nav__logo:hover{
+        cursor: pointer;
+    }
+    
+
 
 
     .nav__title--h {
@@ -31,7 +36,7 @@
 
     /*main*/
 
-   
+
 
 
     .main-container {
@@ -132,6 +137,30 @@
     .footer-container>* {
         font-size: 20px;
     }
+
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     .discover-image {
@@ -260,6 +289,13 @@
         section#listview table tr td{
             display: revert;  /* or display : table-cell */
         }
+
+               
+    .hero-image{
+        width: 100%;
+        border-radius: 7px;
+    }
+   
     
 
 }

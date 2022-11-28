@@ -27,7 +27,7 @@
         text-align: center;
     }
     .nav__title--h  h2 {
-        font-size: 40px;
+        font-size: 60px;
         line-height: 40px;
         text-align: center;
     }
@@ -135,6 +135,39 @@
         margin: 10px 0;
         width: 100%;
     }
+
+
+    .join {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .join h4{
+        line-height: 25px;
+    }
+
+    .join button{
+        padding: 10px;
+        border-radius: 7px;
+        border: 2px solid rgb(93, 93, 93);
+        transition: .5s ease;
+        font-weight: 600;
+        font-size: 20px;
+        background-color: rgb(168, 197, 255);
+        color: rgb(255, 254, 254);
+        text-shadow: 2px 2px #3b3b3b;
+        
+    }
+
+    .join button:hover{
+        opacity: 0.3;
+        cursor: pointer;
+    }
+
+
     .event-weather{
         margin-top: 10px;
         display: flex;

@@ -257,6 +257,44 @@
         top: 10px;
     }
 
+    .spotlight{
+        position: relative;
+        font-size: 20px;
+    }
+
+    .absolute-1{
+        position: absolute;
+        top: 155px;
+        left: 20px; 
+         
+        padding: 5px;
+        background-color: white;
+        border: 1px solid cornflowerblue;
+        box-shadow: 5px 10px 18px #484848;
+    }
+
+    .absolute-2{
+        position: absolute;
+        top: 360px;
+        left: 20px; 
+         
+        padding: 5px;
+        background-color: white;
+        border: 1px solid cornflowerblue;
+        box-shadow: 5px 10px 18px #484848;
+    }
+
+    .absolute-3{
+        position: absolute;
+        top: 570px;
+        left: 20px; 
+         
+        padding: 5px;
+        background-color: white;
+        border: 1px solid cornflowerblue;
+        box-shadow: 5px 10px 18px #484848;
+    }
+
 
 
     .discover-image {

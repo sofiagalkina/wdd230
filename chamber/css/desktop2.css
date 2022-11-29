@@ -17,6 +17,15 @@
     .nav__logo:hover{
         cursor: pointer;
     }
+
+
+
+    ul li .active{
+        background-color: rgb(168, 197, 255);
+        color: black;
+        padding: 5px 10px;
+
+    }
     
 
 

@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
 .nav__container {
     padding: 8px;
     background-color: cornflowerblue;
@@ -186,6 +192,10 @@ FOOTER
 .footer-container>* {
     font-size: 20px;
     line-height: 35px;
+}
+
+.footer div{
+    text-decoration: none;
 }
 
 

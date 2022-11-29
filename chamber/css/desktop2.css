@@ -380,6 +380,11 @@
     text-align: center;
    }
 
+   .event h4{
+    font-size: 29px;
+    margin-top: 0;
+   }
+
     .discover-image {
  
         opacity: 1;

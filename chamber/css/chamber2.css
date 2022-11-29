@@ -52,6 +52,17 @@
     border-radius: 7px;
 }
 
+.spotlight-box img{
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+
+}
+
+.spotlight-box h2{
+    display: none;
+}
+
 .nav__title--h {
     padding: 12px;
     line-height: 17px;

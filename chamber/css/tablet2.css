@@ -2,6 +2,14 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Nabla&family=Staatliches&display=swap');
 
+
+
+    .hero-image{
+        width: 100%;
+        height: auto;
+        border-radius: 7px;
+    }
+    
     .nav__logo {
         width: 180px;
         height: 180px;
@@ -291,10 +299,7 @@
         }
 
                
-    .hero-image{
-        width: 100%;
-        border-radius: 7px;
-    }
+ 
    
     
 

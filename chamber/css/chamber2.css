@@ -386,3 +386,13 @@ label.myInput input:required{
         flex-direction: column;
         border: none;
     }
+
+
+    /* HAMBURGER   */
+
+    .box ul{
+        display: none;
+        list-style-type: none;
+    }
+
+   

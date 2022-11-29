@@ -521,7 +521,10 @@
           
       }
     
-    
+    /*  HAMBURGER   */
+    #hamburger{
+        display: none;
+    }
  
 
 

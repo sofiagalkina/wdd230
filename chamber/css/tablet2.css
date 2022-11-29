@@ -315,6 +315,12 @@
             display: revert;  /* or display : table-cell */
         }
 
+
+        /*          HAMBURGER           */
+
+        #hamburger{
+            display: block;
+        }
                
  
    

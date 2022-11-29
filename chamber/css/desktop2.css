@@ -245,7 +245,10 @@
         display: none;
     }
 
- 
+    .spotlight-box h2{
+        visibility: visible;
+    }
+    
     .spotlight{
         display: flex;
         flex-direction: column;

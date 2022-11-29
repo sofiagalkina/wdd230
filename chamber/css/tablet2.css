@@ -9,7 +9,7 @@
         height: auto;
         border-radius: 7px;
     }
-    
+
     .nav__logo {
         width: 180px;
         height: 180px;
@@ -87,18 +87,48 @@
         flex-direction: column;
         margin: 10px 0 10px;
     }
+
+    /*          JOIN    */
     .join {
         margin: 0;
     visibility: visible;
     display: block;
+    text-align: center;
     }
 
+    .join button{
+        font-size: 32px;
+        border: 2px solid rgb(93, 93, 93);
+        background-color: rgb(168, 197, 255);
+        color: rgb(255, 254, 254);
+        text-shadow: 2px 2px #3b3b3b;
+        padding: 9px;
+        border-radius: 16px;
+        transition: .5s ease;
+    }
+
+    .join button:hover{
+        opacity: 0.2;
+        cursor: pointer;
+    }
+
+    .join h4{
+        font-size: 34px;
+    }
 
     /*  WEATHER    */
     .event-weather{
         margin-top: 10px;
         display: flex;
         flex-direction: row;
+    }
+
+    .event{
+        font-size: 26px;
+    }
+
+    .event h4{
+        font-size: 29px;
     }
     .event{
         width: 60%;

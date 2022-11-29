@@ -321,6 +321,20 @@
         #hamburger{
             display: block;
         }
+
+         #hamburger{
+            width: 30px;
+            height: 30px;
+            border-radius: 7px;
+            border: 1px solid lightgray;
+            transition: .3s ease;
+
+        }
+
+        #hamburger:hover{
+            opacity: .2;
+            cursor: pointer;
+        }
                
  
    

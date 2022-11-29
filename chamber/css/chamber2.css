@@ -11,6 +11,8 @@ a:visited{
 }
 
 
+
+
 .nav__container {
     padding: 8px;
     background-color: cornflowerblue;
@@ -194,7 +196,7 @@ FOOTER
     line-height: 35px;
 }
 
-.footer div{
+footer div{
     text-decoration: none;
 }
 
@@ -296,7 +298,7 @@ label.myInput input:required{
 }
 
 .mySubmit{
-    background-color: cornflowerblue;
+    background-color: rgb(168, 197, 255);
     padding: 6px;
     margin-top: 8px;
     border: 1px solid black;

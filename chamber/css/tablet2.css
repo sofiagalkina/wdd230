@@ -184,20 +184,7 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*      DISCOVER    */
 
 
 
@@ -244,7 +231,7 @@
     /*JOIN PAGE   */
 
     .mySubmit{
-        background-color: cornflowerblue;
+        background-color: rgb(168, 197, 255);
         padding: 6px;
         margin-top: 8px;
         border: 1px solid black;

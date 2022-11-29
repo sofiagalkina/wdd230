@@ -15,8 +15,6 @@
 
     <!-- JS-->
 
-    <script defer src="./js/discover.js"></script> </script>
-    <script defer src="./js/main.js"></script>
     <script defer src="https://kit.fontawesome.com/3136e7c99c.js" crossorigin="anonymous"></script>
 
     <title>Discover</title>
@@ -29,7 +27,7 @@
 <body>
     <header class="nav__container">
         <div class="nav__container--title">
-            <span class="date">Monday, novenber 34, 1293</span>
+            <span id="date"></span>
     
         </div>
     
@@ -163,14 +161,20 @@
     </div>
     <div>
         
-        <span> &copy Mountventure Chamber</span>
+        <span><span id="year"></span> &copy Mountventure Chamber </span></span>
         <h4><strong> Sofia Galkina</strong></h4>
         <h6> WDD 230 Project</h6>
-        <h6> Last modicication: <span class="lastModified"></span></h6>
+    
+        <h6> Last modification: <span id="modify"></span></h6>
     </div>
 
 
 
     </footer>
+
+    
+    <script src="./js/discover.js"></script>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

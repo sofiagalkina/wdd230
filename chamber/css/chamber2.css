@@ -396,3 +396,20 @@ label.myInput input:required{
     }
 
    
+    #hamburger{
+        display: block;
+    }
+
+     #hamburger{
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        transition: .3s ease;
+
+    }
+
+    #hamburger:hover{
+        opacity: .2;
+        cursor: pointer;
+    }

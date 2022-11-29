@@ -118,6 +118,10 @@
     }
 
     .realnews{
+        background-image: url(/wdd230/chamber/images/—Pngtree—christmas\ snowflake\ snow\ falling_5590479.png);
+    }
+
+    .realnews{
         display: flex;
         width: 50%;
         margin-top: 0 0 10px;

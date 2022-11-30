@@ -360,6 +360,7 @@
         .directorboard{
             width: 250px;
             height: 300px;
+            gap: 40px;
         }
     
         .director-container{
@@ -367,17 +368,49 @@
             flex-direction: column;
             justify-content: space-around;
             padding: 10px;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 22px;
+            font-weight: 600;
         }
     
         .director-container figcaption{
             font-size: 17px;
             text-align: center;
+            
         }
+
+        .director-container h1{
+            margin-top: 70px;
+            
+        }
+
+        .director-container .mySubmit{
+            position: relative;
+            left: 66px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 5px 10px 18px #484848;
+            font-size: 18px;
+            font-weight: 600;
+            transition: .3s ease;
+            
+
+
+        }
+
+        .director-container .mySubmit:hover{
+            opacity: .7;
+            cursor: pointer;
+        }
+
+      
     
         .director-pictures{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-left: 20px;
+            margin-right: 20px;
         }
     
                

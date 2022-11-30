@@ -554,23 +554,34 @@
 
 
     .directorboard{
-        width: 350px;
-        height: 400px;
+        width: 320px;
+        height: 370px;
     }
 
     .director-container{
         display: flex;
         justify-content: space-around;
         padding: 15px;
+        font-family: 'Roboto Mono', monospace;
+
     }
 
     .director-container figcaption{
         font-size: 20px;
         text-align: center;
+        font-family: 'Roboto Mono', monospace;
     }
+
+    .director-container h1{
+        margin-top: 50px;
+        font-size: 30px;
+        
+    }
+    
 
     .director-pictures{
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         width: 70%

@@ -7,6 +7,10 @@
 
 a:visited{
     text-decoration: none;
+   
+}
+
+#navbar a:visited{
     color: white;
 }
 

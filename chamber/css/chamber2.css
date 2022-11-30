@@ -176,7 +176,9 @@ i:hover {
     background-image: url(/wdd230/chamber/images/—Pngtree—small\ tiny\ white\ snow\ dust_6520232.png);
 }
 
-
+.event{
+    background-image: url(/wdd230/chamber/images/—Pngtree—small\ tiny\ white\ snow\ dust_6520232.png);
+}
 
 
 /*
@@ -201,6 +203,21 @@ FOOTER
 
 footer div{
     text-decoration: none;
+}
+
+footer div{
+    line-height: 29px;
+}
+
+#locationMapIcon{
+    max-width: 25px;
+    max-height: 25px;
+    transition: .4s ease;
+}
+
+#locationMapIcon:hover{
+    opacity: .2;
+    cursor: pointer;
 }
 
 

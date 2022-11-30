@@ -52,6 +52,12 @@
         justify-content: space-around;
     }
 
+
+    #locationMapIcon{
+        max-width: 50px;
+        max-height: 50px;
+    }
+
  
 
     .box a{
@@ -190,6 +196,10 @@
     .event{
         width: 100%;
         margin: 10px 0 0;
+    }
+
+    .event{
+        background-image: url(/wdd230/chamber/images/—Pngtree—small\ tiny\ white\ snow\ dust_6520232.png);
     }
 
 

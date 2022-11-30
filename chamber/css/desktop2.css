@@ -551,6 +551,22 @@
  
 
 
+    .directorboard{
+        width: 350px;
+        height: 400px;
+    }
+
+    .director-container{
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    .director-pictures{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%
+    }
 
 
 

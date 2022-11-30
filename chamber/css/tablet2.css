@@ -355,6 +355,31 @@
             opacity: .2;
             cursor: pointer;
         }
+
+
+        .directorboard{
+            width: 250px;
+            height: 300px;
+        }
+    
+        .director-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 10px;
+        }
+    
+        .director-container figcaption{
+            font-size: 17px;
+            text-align: center;
+        }
+    
+        .director-pictures{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    
                
  
    

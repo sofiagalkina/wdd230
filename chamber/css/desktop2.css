@@ -562,9 +562,15 @@
         padding: 15px;
     }
 
+    .director-container figcaption{
+        font-size: 20px;
+        text-align: center;
+    }
+
     .director-pictures{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
         width: 70%
     }
 

@@ -446,3 +446,40 @@ label.myInput input:required{
         font-size: 17px;
         display: block;
       }
+
+      
+      .directorboard{
+        width: 250px;
+        height: 300px;
+    }
+
+    .director-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 7px;
+    }
+
+    .director-container figcaption{
+        font-size: 16px;
+        text-align: center;
+        
+        
+    }
+
+    .director-pictures{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+    .director-pictures img{
+        box-shadow: 5px 10px 18px #888888;
+        border: 1px solid rgb(111, 111, 111);
+    }
+
+   

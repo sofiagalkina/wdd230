@@ -1,0 +1,69 @@
+@media (min-width: 992px) {
+  
+
+             
+    .logo{
+        height: 210px;
+        width: 210px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    nav{
+        font-size: 24px;
+       
+    }
+
+    a{
+        color: black;
+    }
+
+    nav {
+        height: 130px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:  0 16px;
+        background-color: #4B5842;
+    }
+
+
+
+
+    #sitepurpose,
+    #targetaudience,
+    #sitemap,
+    #colorscheme,
+    #typography,
+    #wireframesketches {
+        height: 300px;
+        width: 100%;
+        padding: 48px 0;
+        background-color: #DADDD8;
+    }
+
+    #sitepurpose{
+        height: calc(100vh - 130px);
+    }
+
+    #targetaudience{
+        background-color: #C7D59F;
+    }
+
+    #colorscheme{
+        background-color: #C7D59F;
+
+    }
+   
+
+    #wireframesketches{
+        background-color: #C7D59F;
+
+    }
+
+
+   
+
+
+
+}

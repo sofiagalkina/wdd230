@@ -1,0 +1,58 @@
+
+
+main{
+    background-color: #DADDD8;
+
+}
+
+.active{
+    text-decoration: none;
+
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+a:visited{
+    color: black;
+}
+
+/*      NAVIGATION         */
+nav {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 16px;
+    background-color: #cafdff;
+}
+
+nav{
+    background-color: #4B5842;
+
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: underline;
+    
+}
+
+.header ul li{
+    padding: 13px;
+    transition: .3s ease;
+}
+
+.header ul li:hover{
+    opacity: .2;
+    cursor: pointer;
+}
+
+
+/*      MAIN        */
+main{
+    margin-top: 30px;
+}

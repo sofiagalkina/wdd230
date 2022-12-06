@@ -64,6 +64,7 @@
 
     #wireframesketches{
         background-color: #C7D59F;
+        height: 100%;
 
     }
 
@@ -111,6 +112,22 @@
 
     #typography{
         height: 600px;
+    }
+
+    .large{
+        height: 800px;
+        width: 600px;
+    }
+
+    .medium{
+        height: 600px;
+        width: 500px;
+
+    }
+
+    .small{
+        height: 550px;
+        width: 400px;
     }
 
 

@@ -1,0 +1,57 @@
+@media (min-width: 992px) {
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Playfair+Display:wght@400;600;700&display=swap');
+
+   #header{
+    height: 100px;
+    background-color: #4b5842;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .logo{
+    width: 185px;
+    height: 185px;
+    position: relative;
+    bottom: 9px;
+    transition: .5s ease;
+   }
+
+   .logo:hover{
+    opacity: .4;
+    cursor: pointer;
+   }
+
+   .header--navigation__list{
+    list-style: none;
+    display: flex;
+   
+   }
+
+   .header--navigation__list li{
+    display: flex;
+    padding: 30px;
+    transition: .3s ease;
+    font-size: 22px;
+   }
+
+   
+   .header--navigation__list li:hover{
+    cursor: pointer;
+    opacity: .2;
+   }
+  
+   
+
+
+
+   /*   FOOTER   */
+
+   #footer{
+    height: 200px;
+    background-color: #4b5842;
+   }
+
+
+
+}

@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Playfair+Display:wght@400;600;700&display=swap');
+
+.header{
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+    p{
+        color: tomato;
+    }
+
+
+}

@@ -1,4 +1,4 @@
-
+/*      GENERIC     */
 .fatface{
     font-family: 'Abril Fatface', cursive;
 }
@@ -10,3 +10,106 @@
 .playfair{
     font-family: 'Playfair Display', serif;
 }
+
+
+/*  HEADER  */
+
+
+   .header--navigation__list li{
+    display: flex;
+    padding: 30px;
+    transition: .3s ease;
+    font-size: 22px;
+   }
+
+   
+   .header--navigation__list li:hover{
+    cursor: pointer;
+    opacity: .2;
+   }
+
+   .logo{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 5px;
+    transition: .5s ease;
+   }
+
+   .logo:hover{
+    opacity: .4;
+    cursor: pointer;
+   }
+
+   #header{
+    height: 60px;
+    background-color: #4b5842;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .header--navigation__list{
+    display: none;
+   
+   }
+
+
+   /*   MAIN    */
+   #main{
+    height: calc(100vh - 60px);
+   }
+
+
+
+   /*   FOOTER  */
+
+   #footer{
+    height: 100px;
+    background-color: #4b5842;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   }
+
+   #footer li{
+    font-size: 15px;
+    line-height: 15px;
+   }
+
+   i{
+    transition: .4s ease;
+   }
+
+   i:hover{
+    opacity: .2;
+    cursor: pointer;
+   }
+
+   .footer--logo{
+    height: 100px;
+    width: 100px;
+    transition: .4s ease;
+   }
+
+   .footer--logo:hover{
+    opacity: .2;
+    cursor: pointer;
+   }
+
+   .location{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 8px;
+   }
+
+   .location{
+    transition: .4s ease;
+   }
+
+   .location:hover{
+    opacity: .2;
+    cursor: pointer;
+   }

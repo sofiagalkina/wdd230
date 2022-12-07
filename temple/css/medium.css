@@ -2,14 +2,86 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Playfair+Display:wght@400;600;700&display=swap');
 
-.header{
-    font-family: 'Abril Fatface', cursive;
-}
+    #header{
+        height: 80px;
+        background-color: #4b5842;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
+
+       .logo{
+        width: 130px;
+        height: 130px;
+        position: relative;
+        bottom: 5px;
+     
+       }
+    
+    
+    
+       .header--navigation__list{
+        list-style: none;
+        display: flex;
+       
+       }
+
+       .header--navigation__list li{
+    
+        font-size: 18px;
+       }
 
 
-    p{
-        color: tomato;
-    }
+       /*   MAIN    */
+       #main{
+        height: calc(100vh - 80px);
+       }
 
+
+
+       /*   FOOTER  */
+
+       #footer{
+        height: 150px;
+        background-color: #4b5842;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+       }
+
+       .location{
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: 8px;
+       }
+
+       .location{
+        transition: .4s ease;
+       }
+    
+       .location:hover{
+        opacity: .2;
+        cursor: pointer;
+       }
+
+       i{
+        font-size: 24px;
+        padding: 7px;
+       }
+    
+ #footer li{
+    line-height: 25px;
+    font-size: 18px;
+   }
+
+   #footer ul{
+    list-style: none;
+   }
+
+
+
+  
 
 }

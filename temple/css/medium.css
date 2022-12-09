@@ -37,6 +37,27 @@
         height: calc(100vh - 80px);
        }
 
+       /*   CAROUSEL    */
+       .slide > img{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        object-position: center; /*maybe take that away?*/
+       }
+
+       
+   .carousel-button.prev{
+    left: 1rem;
+   }
+
+   .carousel-button.next{
+    right: 2rem;
+   }
+
+
+
 
 
        /*   FOOTER  */

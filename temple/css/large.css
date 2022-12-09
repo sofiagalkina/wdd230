@@ -35,9 +35,10 @@
   
 
    .slide > img{
+    margin: 0 auto;
     display: block;
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
     object-position: center; /*maybe take that away?*/
    }
@@ -75,7 +76,7 @@
    }
 
    .carousel-button.next{
-    right: 1rem;
+    right: 2rem;
    }
 
 

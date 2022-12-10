@@ -21,6 +21,7 @@ buttons.forEach(button => {
 
 
 
+/*      HAMBURGER MENU      */
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarlinks = document.getElementsByClassName('header--navigation__list')[0]

@@ -18,3 +18,13 @@ buttons.forEach(button => {
         delete activeSlide.dataset.active
     })
 })
+
+
+
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarlinks = document.getElementsByClassName('header--navigation__list')[0]
+
+toggleButton.addEventListener('click', () => {
+    navbarlinks.classList.toggle('active')
+})

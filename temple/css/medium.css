@@ -32,6 +32,14 @@
        }
 
 
+
+
+       /*       TOGGLE MENU     */
+       .toggle-button{
+        display: none;
+       }
+
+
        /*   MAIN    */
        #main{
         height: calc(100vh - 80px);

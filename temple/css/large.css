@@ -9,6 +9,11 @@
     align-items: center;
    }
 
+/*      TOGGLE BUTTON       */
+   .toggle-button{
+    display: none;
+   }
+
 
    /* Carousel  */
 

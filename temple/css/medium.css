@@ -4,15 +4,15 @@
 
     #header{
         height: 80px;
-        background-color: #4b5842;
+        background-color: #E5ECF4;
         display: flex;
         justify-content: space-between;
         align-items: center;
        }
 
        .logo{
-        width: 130px;
-        height: 130px;
+        width: 200px;
+        height: 200px;
         position: relative;
         bottom: 5px;
      
@@ -64,7 +64,7 @@
 
        #footer{
         height: 150px;
-        background-color: #4b5842;
+        background-color: #E5ECF4;
         display: flex;
         justify-content: space-between;
         align-items: center;

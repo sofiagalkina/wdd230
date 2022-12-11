@@ -133,6 +133,13 @@
   position: relative;
   left: 90px;
  }
+
+
+ /*     TEMPLES     */
+ #cardview {
+  display: flex;
+  flex-direction: row;
+ }
   
    
 

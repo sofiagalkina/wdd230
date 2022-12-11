@@ -1,0 +1,63 @@
+{
+    "temples": [
+      {
+        "name": "Salt Lake City Temple",
+        "address": "50 West North Temple Street Salt Lake City, Utah",
+        "telephone": "801-240-2640",
+        "email": "ldschurch@info.com",
+        "services":"Clothing rental available, distribution center nearby",
+        "history": "With its distinctive spires and statue of the angel Moroni, the Salt Lake Temple is an international symbol of the Church. The Salt Lake Temple was the fourth temple built in Utah (though its construction was started first) and the first built in the Salt Lake Valley.",
+        "ordinance_schedule": "7:30am - 10:00am, 10:30am - 8:00pm",
+        "session_schedule": "9:00am-9:00pm",
+        "closure_schedule": "Saturday, 24 December 2022 - Sunday, 25 December 2022",
+        "imagesURL": "images/slctemple.jpg"
+
+      },
+
+      {
+        "name": "Logan Utah Temple",
+        "address": "175 N 300 E Logan, Utah",
+        "telephone": "435-752-3611",
+        "email": "ldschurch@info.com",
+        "services":"Clothing rental available",
+        "history": "The Logan Utah Temple was the second temple built in Utah. The five-story Logan Utah Temple was built entirely by volunteer labor over a seven-year period from 1877 to 1884.",
+        "ordinance_schedule": "7:00am-8:30am, 12:00pm-1:30pm, 2:30pm-8:00pm",
+        "session_schedule": "9:00am-9:00pm",
+        "closure_schedule": "Saturday, 24 December 2022",
+        "imagesURL": "images/logantemple.jpg"
+
+
+      },
+
+      {
+        "name": "Saint George Temple",
+        "address": "250 E 400 S St George, Utah",
+        "telephone": "435-673-3533",
+        "email": "ldschurch@info.com",
+        "services":"Clothing rental available, distribution center nearby",
+        "history": "The St. George Utah Temple is the longest operating temple of the Church and was the first built in Utah. It is  is the only temple completed during Brigham Young's 30-year tenure as president of the Church.",
+        "ordinance_schedule": "7:00am-8:30am, 12:00pm-1:30pm, 2:30pm-8:00pm",
+        "session_schedule": "6:00am-2:00pm",
+        "closure_schedule": "Saturday, 24 December 2022",
+        "imagesURL": "images/stgeorgetemple.jpg"
+
+
+      },
+
+      {
+        "name": "Seattle Temple",
+        "address": "2808 148th Avenue SE Bellevue, Washington ",
+        "telephone": "425-643-5144",
+        "email": "ldschurch@info.com",
+        "services":"Clothing rental available, distribution center nearby",
+        "history": "The Seattle Washington Temple was the first temple built in the Pacific Northwest (and in the state of Washington). It is  is one of only five temples featuring an angel Moroni statue holding the gold plates. ",
+        "ordinance_schedule": "7:30am - 10:00am, 10:30am - 8:00pm",
+        "session_schedule": "6:00am-2:00pm",
+        "closure_schedule": "Saturday, 24 December 2022 - Sunday, 25 December 2022",
+        "imagesURL": "images/seattletemple.jpg"
+
+
+      }
+
+    ]
+  }

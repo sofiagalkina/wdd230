@@ -207,6 +207,11 @@
         z-index: 1;
         transition-delay: 0ms;
        }
+
+       .active:hover{
+        background: none;
+        color: black;
+       }
     
        .carousel-button{
         position: absolute;
@@ -236,6 +241,39 @@
     
        .carousel-button.next{
         right: 1rem;
+       }
+
+
+       /*       TEMPLES     */
+
+       #cardview img{
+        height: 400px;
+        width: 400px;
+       }
+
+       #cardview span{
+        font-weight: 100;
+        font-size: 32px;
+        
+       }
+
+       #cardview span:hover{
+        cursor: pointer;
+       }
+
+       
+
+       #cardview{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+
+       #cardview ul{
+        list-style: none;
        }
     
     

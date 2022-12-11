@@ -92,6 +92,23 @@
    }
 
 
+   /*           TEMPLES         */
+
+   #cardview{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+
+   #cardview img{
+    width: 400px;
+    height: 400px;
+    align-content: center;
+    justify-items: center;
+   }
+
+   #cardview p, li{
+    font-size: 22px;
+   }
 
 
        /*   FOOTER  */

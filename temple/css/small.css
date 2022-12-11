@@ -16,6 +16,29 @@
 }
 
 
+
+/*      CALL TO ACTION      */
+.calltoaction{
+    margin-top: 7px;
+    background-color: #656256;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 7px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 600;
+}
+
+#booknow{
+    transition: .4s ease;
+}
+
+#booknow:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+
+
 /*  HEADER   NAVIGATION */
 
 
@@ -61,8 +84,8 @@
    /*       TOGGLE MENU     */
    .toggle-button{
     position: absolute;
-    top: .75rem;
-    right: 1rem;
+    top: 1.2rem;
+    right: .6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -91,16 +114,59 @@
    }
 
 
+
+
    /*   MAIN    */
-   #main{
-    height: calc(100vh - 60px);
-   }
+ .temple_homepage{
+    margin-top: 10px;
+    width: 100%;
+    max-height: 400px;
+ }
+
+
+
+ .checkout{
+    background-color: #FFDCBA;
+    max-width: 260px;
+    padding: 5px;
+    border: 1px solid #656256;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    transition: .4s ease;
+ }
+
+ 
+
+ .checkout:hover{
+    opacity: .7;
+    cursor: pointer;
+ }
+
+#main > * {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main ul{
+    text-decoration: none;
+    list-style: none;
+}
+
 
 
       /* Carousel  */
 
+      .carousel-container{
+        margin-top: 20px;
+      }
+
       .carousel {
-        width: 100vw;
+        max-width: 500px;
         height: 100vh;
         position: relative;
        }

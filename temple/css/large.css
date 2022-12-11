@@ -17,6 +17,11 @@
 
    /* Carousel  */
 
+   .carousel-container{
+      margin-top: 100px;
+      
+    }
+
    .carousel {
     width: 100vw;
     height: 100vh;
@@ -114,9 +119,13 @@
 
 
    /* MAIN */
-   #main{
-    height: calc(100vh - 100px);
-   }
+
+
+
+ .temple_homepage{
+   width: 100%;
+   height: 100%;
+ }
   
    
 

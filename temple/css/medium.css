@@ -98,6 +98,15 @@
     display: grid;
     grid-template-columns: auto auto;
    }
+   
+ #cardview div{
+    height: 1100px;
+    width: 400px;
+    padding: 10px;
+    margin: 5px;
+   }
+    
+     
 
    #cardview img{
     width: 400px;

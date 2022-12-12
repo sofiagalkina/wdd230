@@ -95,17 +95,17 @@
 
 
       <div class="box">
-        <h1>Reservation Form</h1>
-        <form>
-           <label>Full Name</label><br>
-           <input type="text" placeholder="First Name, Last Name" required><br>
-           <label>Email</label><br>
-           <input type="text" placeholder="Email" required><br>
-           <label>Mobile Phone</label><br>
-           <input type="number" placeholder="Phone Number" required><br><br>
-           <label>Home State / Country</label><br>
+        <h1 class="fatface">Reservation Form</h1>
+        <form action="thankyou.html">
+           <label class="myInput">Full Name:</label><br>
+           <input class="myInput" type="text" placeholder="First Name, Last Name" required><br>
+           <label class="myInput" >Email:</label><br>
+           <input class="myInput" type="email" name="email" placeholder="Email" required><br>
+           <label class="myInput">Mobile Phone:</label><br>
+           <input class="myInput" type="text" placeholder="Phone Number" required><br><br>
+           <label class="myInput">Home State / Country:</label><br>
            <input type="text" placeholder="Home State or Country" required><br>
-           <label>Select your room:</label><br>
+           <label class="myInput">Select your room:</label><br>
            <select name="roomtype">
               <option value="option1">Standard Twin Room</option>
               <option value="option2">Standard Queen Room</option>
@@ -114,17 +114,17 @@
 
            </select><br><br>
 
-           <label>Arrival Date</label><br>
+           <label class="myInput">Arrival Date</label><br>
            <input type="date" placeholder="dd/mm/yyy/"><br><br>
-           <label>Number of Guests: </label><br>
+           <label class="myInput">Number of Guests: </label><br>
            <input type="number" placeholder="Number of guests:"><br><br>
-           <label>Select the hotel location:</label><br>
+           <label class="myInput">Select the hotel location:</label><br>
            Salt Lake City <input type="checkbox"><br>
            Logan <input type="checkbox"><br>
            Seattle <input type="checkbox"><br>
            St George<input type="checkbox"><br><br>
-           <label>Comments <textarea name="description" cols="40" rows="5"></textarea></label><br>
-           <input class="mySubmit" type="submit" value="Book Now">
+           <label class="myInput">Comments: <textarea name="description" cols="40" rows="5"></textarea></label><br>
+           <input class="mySubmit " type="submit" value="Book Now">
 
 
 

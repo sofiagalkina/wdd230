@@ -150,8 +150,16 @@
   width: 400px;
  }
   
-   
+   /*     RESERVATION   */
+   .box{
+    font-size: 26px;
+   }
 
+ /*       THANK YOU PAGE      */
+ #thankyou{
+  font-size: 24px;
+  
+ }
 
 
    /*   FOOTER   */

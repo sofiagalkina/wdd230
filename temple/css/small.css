@@ -365,16 +365,21 @@
 
     #weddings{
         text-align: center;
-        background-color: #fbf5ef;
+        background-color: #f6ece2;
     }
 
     #weddings ul{
         list-style: none;
     }
 
-    
+    /*      MISSIONARY      */
+
+    #missionary{
+        margin-top: 40px;
+    }
 
     #wedingsbanner {
+    
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -382,15 +387,56 @@
         height: 100px !important;
     }
 
+
+    .contact-form{
+        border: 1px solid #656256;
+        margin: 20px;
+    }
+
+
+/*      MISSIONARY      */
 
     #missionary-banner{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        width: 500px;
         height: 100px !important;
+    }
+
+    #missionary ul{
+        list-style: none;
+    }
+
+
+    #missionary{
+        text-align: center;
+    }
+
+    #missionary div, li{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
 
     }
+
+    #missionary h1, h2, h3{
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+    #missionary form label{
+        font-weight: 700;
+    }
+
+    #missionary input, textarea{
+        border-radius: 7px;
+    }
+
+    #missionary form{
+        margin-bottom: 30px;
+    }
+
 
 
 

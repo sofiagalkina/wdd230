@@ -249,7 +249,7 @@
        #cardview img{
         height: 400px;
         width: 400px;
-       }
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;       }
 
        #cardview span{
         font-weight: 100;

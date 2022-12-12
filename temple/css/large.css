@@ -142,7 +142,9 @@
   justify-content: space-between;
 
  }
-
+#cardview img{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
  #cardview div{
   height: 1100px;
   width: 400px;

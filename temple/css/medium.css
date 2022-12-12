@@ -130,7 +130,36 @@
    /*       THANK YOU PAGE      */
    #thankyou{
     font-size: 22px;
+
    }
+
+
+
+    /*          SERVICES        */
+    #weddings img{
+        height: 400px;
+        width: 500px;
+    }
+
+    #weddings div, li{
+        font-family: 'Playfair Display', serif;
+
+    }
+
+    #weddings h1, h2, h3{
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+    #wedingsbanner {
+        margin-top: 10px;
+        height: 200px !important;
+        max-width: 700px;
+    }
+
+
+
+
 
 
        /*   FOOTER  */

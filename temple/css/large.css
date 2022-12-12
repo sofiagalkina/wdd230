@@ -164,6 +164,102 @@
      /*          SERVICES        */
 
 
+   .service-content-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+   }
+
+   #weddings img{
+    width: 700px;
+    height: 500px;
+   }
+
+   #weddings img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   }
+
+   .service-content-3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+   }
+
+   .service-content-4{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+   }
+
+   .service-content-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    
+   }
+
+   .service-content-2 img{
+    position: relative;
+    right: 100px;
+   }
+
+   .service-content-1 img{
+    position: relative;
+    left: 30px;
+   }
+
+   .service-content-1 ul, h3{
+    position: relative;
+    left: 130px;
+   }
+   .service-content-1 h3{
+    position: relative;
+    left: 150px;
+   }
+/*  */
+   .service-content-2 ul, h3{
+    position: relative;
+    left: 0px;
+   }
+   .service-content-2 h3{
+    position: relative;
+    left: 20px;
+   }
+/*  */
+.service-content-3 ul, h3{
+  position: relative;
+  left: 100px;
+ }
+ .service-content-3 h3{
+  position: relative;
+  left: 120px;
+ }
+ /*  */
+.service-content-4 ul, h3{
+  position: relative;
+  left: 100px;
+ }
+ .service-content-4 h3{
+  position: relative;
+  left: 120px;
+ }
+
+ .contact-form{
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
 
 
    /*   FOOTER   */

@@ -209,7 +209,6 @@
        }
 
        .active:hover{
-        background: none;
         color: black;
        }
     
@@ -360,10 +359,12 @@
 
     #weddings h1, h2, h3{
         font-family: 'Bebas Neue', cursive;
+        text-align: center;
 
     }
 
-    #weddings{
+  
+    #weddings {
         text-align: center;
         background-color: #f6ece2;
     }

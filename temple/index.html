@@ -16,6 +16,7 @@
       src="https://kit.fontawesome.com/3136e7c99c.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="./js/weather.js"></script>
 
     <title>The Temple Inn & Suites</title>
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
@@ -81,10 +82,45 @@
       </div>
 
       <div class="temple-content">
-        <p class="playfair">
+        <p class="fatface">
           Dedicated in 1893, it is the sixth temple completed by the church, requiring 40 years to complete. Positioned on Salt Lake City's center block, known as Temple Square, the spires of the Salt Lake Temple rise amid downtown high-rises and super malls.
         </p>
       </div>
+
+      <!--        WEATHER ICON-->
+     
+        
+
+        <h2>Weather in Salt Lake City:</h2>
+        <div class="weather item">
+          <div class="temperature">
+              <span id="current-temp"></span> &deg;F
+  
+          </div> 
+
+        <div>
+          <p> <span id="icon-src"></span></p>
+        </div>
+
+        <div class="figure">
+          <figure>
+            <img src="" alt="" id="weathericon"/>
+      
+            <figcaption id="figcaption"></figcaption>
+          </figure>
+          <hr>
+          <div class="wind">
+            <p> Wind Speed:  <span id="windSpeed"></span></p>
+            <p> Wind Chill:  <span id="windChill"> N/A</span> </p>
+        </div>
+        </div>
+         
+    </div>
+
+
+
+
+
 
       <div>
         <h3>Our Specialized Services:</h3>
@@ -187,6 +223,9 @@
             />
           </li>
           <li class="fatface">Sofia Galkina ︳WDD230 ︳(208) 497-1871</li>
+          <li  class="fatface"> Last Modified: <span id="modify"></span></li>
+          <li class="fatface attributions"><a href="attributions.html">- Attributions Page -</a></li>
+
         </ul>
       </div>
 

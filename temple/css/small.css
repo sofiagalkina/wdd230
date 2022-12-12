@@ -276,6 +276,33 @@
        }
 
 
+
+
+       /*       WEATHER     */
+       #icon-src{
+        display: none;
+       }
+
+       .wind{
+        display: none;
+       }
+
+       .weather{
+        border: 1px solid #656256;
+        width: 300px;
+       
+       }
+
+       .temperature,
+       #figcaption{
+        font-size: 20px;
+        font-weight: 600;
+       }
+
+       
+
+     
+
        /*       RESERVATION     */
 
        .box{
@@ -343,7 +370,21 @@
         height: 700px;
     }
     
+/*          ATTRIBUTIONS        */
+.attributions a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
 
+.attributions:visited{
+    color: black;
+}
+
+.attributions a:hover{
+    cursor: pointer;
+    opacity: .7;
+}
 
     /*          SERVICES        */
     #weddings img{

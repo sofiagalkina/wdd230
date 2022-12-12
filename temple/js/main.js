@@ -31,15 +31,7 @@ toggleButton.addEventListener('click', () => {
 })
 
 
-/*      LAST MODIFIED       */
-const todayy = new Date();
-document.querySelector("#year").textContent = todayy.getFullYear();
+/* LAST MODIFIED       */
+const mod = document.getElementById("modify");
+mod.innerHTML = document.lastModified;
 
-document.getElementById("modify").innerHTML = document.lastModified;
-
-
-const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-const currentDate = new Date();
-let day = days[todayy.getDay()] + ", " + (todayy.getDate()) + " " + (months[todayy.getMonth()]) + " " + (todayy.getFullYear());
-document.querySelector("#date").textContent = day;

@@ -126,6 +126,21 @@
     margin: 20px;
 }
 
+.specializedservices h3{
+  text-align: left;
+}
+
+.specializedservices ul{
+  text-align: left;
+}
+
+.freeamenities h3{
+  text-align: left;
+}
+
+.freeamenities ul{
+  text-align: left;
+}
 
 
  .temple_homepage{
@@ -183,7 +198,7 @@
 
    #weddings img{
     width: 700px;
-    height: 500px;
+    height: 400px;
    }
 
    #weddings img{
@@ -261,15 +276,19 @@
   left: 120px;
  }
 
+ .service-content-1,
+ .service-content-2,
+.service-content-3,
+.service-content-4 ul li{text-align: left;}
+
  .contact-form{
   font-size: 24px;
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
  }
 
+ 
 
 
    /*   FOOTER   */
@@ -281,7 +300,9 @@
     align-items: center;
    }
 
-
+i{
+  font-size: 32px;
+}
 
    .location{
     height: 40px;

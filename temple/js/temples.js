@@ -49,7 +49,7 @@ function displayCards(card){
   let cardview = document.querySelector('#cardview');
   let cardelt = document.createElement("div");
   cardelt.innerHTML = `<img src="${card.imagesURL}"> 
-  <span>${card.name}</span> <input class="mycheck" id="check-${card.id} type="checkbox" onclick="likeTemple(this);"></input>
+  <span>${card.name}</span> <input class="mycheck" type="checkbox" id="check-${card.id}  onclick="likeTemple(this);">
   <p>${card.history} </p>
   <p><strong>Address:</strong> ${card.address}</p>
   <p><strong>Phone Number:</strong> ${card.telephone}</p>

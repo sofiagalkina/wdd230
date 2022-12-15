@@ -147,7 +147,7 @@ footer{
     margin-top: 10px;
     width: 100%;
     max-height: 400px;
-    width: 650px;
+    width: 400px;
  }
 
 
@@ -460,7 +460,7 @@ main ul{
     }
 
     #wedingsbanner {
-    
+        margin-bottom: 30px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -491,9 +491,7 @@ main ul{
     }
 
 
-    #missionary{
-        text-align: center;
-    }
+
 
     #missionary div, li{
           

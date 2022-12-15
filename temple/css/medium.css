@@ -2,7 +2,7 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Playfair+Display:wght@400;600;700&display=swap');
 
-    #header{
+    header{
         height: 80px;
         background-color: #E5ECF4;
         display: flex;
@@ -27,7 +27,6 @@
        }
 
        .header--navigation__list li{
-    
         font-size: 18px;
        }
 
@@ -187,7 +186,7 @@
 
        /*   FOOTER  */
 
-       #footer{
+       footer{
         height: 150px;
         background-color: #E5ECF4;
         display: flex;
@@ -217,12 +216,12 @@
         padding: 7px;
        }
     
- #footer li{
+ footer li{
     line-height: 25px;
     font-size: 18px;
    }
 
-   #footer ul{
+   footer ul{
     list-style: none;
    }
 

@@ -1,7 +1,7 @@
 @media (min-width: 992px) {
     @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Playfair+Display:wght@400;600;700&display=swap');
 
-   #header{
+   header{
     height: 100px;
     background-color: #E5ECF4;
     display: flex;
@@ -264,7 +264,7 @@
 
    /*   FOOTER   */
 
-   #footer{
+   footer{
     height: 200px;
     background-color: #E5ECF4;
     display: flex;
@@ -280,12 +280,12 @@
     top: 10px;
    }
 
-   #footer li{
+   footer li{
     line-height: 30px;
     font-size: 22px;
    }
 
-   #footer ul{
+   footer ul{
     list-style: none;
    }
 

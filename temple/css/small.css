@@ -13,6 +13,8 @@
 
 *, *::before, *::after{
     box-sizing: border-box;
+    font-family: 'Abril Fatface', cursive;
+
 }
 
 
@@ -68,7 +70,7 @@
     cursor: pointer;
    }
 
-   #header{
+   header{
     height: 60px;
     background-color: #E5ECF4;
     display: flex;
@@ -100,26 +102,38 @@
     border-radius: 10px;
    }
 
+   .logo{
+    position: relative;
+    left: 180px;
+   }
+
    .header--navigation__list.active{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
     background-color:  #E5ECF4;
     opacity: .8;
     font-weight: 600;
     position: relative;
     top: 55px;
+    right: 120px;
     
    }
 .header--navigation__list .active{
-    background-color: rgb(209, 230, 236);
+    background-color: rgb(101, 101, 101);
     color: white;
 }
 
 
 
    /*   MAIN    */
+
+   main ul li{
+    
+        font-family: 'Abril Fatface', cursive;
+    }
+   
  .temple_homepage{
     margin-top: 10px;
     width: 100%;
@@ -151,12 +165,12 @@
     cursor: pointer;
  }
 
-#main > * {
+main > * {
     margin: 0 auto;
     text-align: center;
 }
 
-#main ul{
+main ul{
     text-decoration: none;
     list-style: none;
 }
@@ -210,6 +224,8 @@
 
        .active:hover{
         color: black;
+        background-color: #E5ECF4;
+        opacity: .9;
        }
     
        .carousel-button{
@@ -269,6 +285,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        font-family: 'Abril Fatface', cursive;
+
        }
 
        #cardview ul{
@@ -306,7 +324,7 @@
        /*       RESERVATION     */
 
        .box{
-       font-family: 'Playfair Display', serif;
+        font-family: 'Abril Fatface', cursive;
         
        }
 
@@ -322,13 +340,18 @@
         font-weight: 600;
        }
        .box input, label{
-        font-family: 'Playfair Display', serif;
+        font-family: 'Abril Fatface', cursive;
 
        }
        label.myInput {
         display: block;
         padding-top: 1rem;
     }
+
+.reservation-form{
+    font-family: 'Abril Fatface', cursive;
+
+}
 
   
 
@@ -387,19 +410,26 @@
 }
 
     /*          SERVICES        */
+
+    #weddings{
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    #weddings p {
+        font-family: 'Abril Fatface', cursive;
+    }
+
     #weddings img{
         height: 400px;
         width: 500px;
     }
 
     #weddings div, li{
-        font-family: 'Playfair Display', serif;
-        font-size: 20px;
+         font-size: 20px;
 
     }
 
     #weddings h1, h2, h3{
-        font-family: 'Bebas Neue', cursive;
         text-align: center;
 
     }
@@ -457,13 +487,8 @@
     }
 
     #missionary div, li{
-        font-family: 'Playfair Display', serif;
-        font-size: 20px;
-
-    }
-
-    #missionary h1, h2, h3{
-        font-family: 'Bebas Neue', cursive;
+          
+          font-size: 20px;
 
     }
 
@@ -479,12 +504,16 @@
         margin-bottom: 30px;
     }
 
+    #missionary{
+        font-family: 'Abril Fatface', cursive;
+    }
+
 
 
 
    /*   FOOTER  */
 
-   #footer{
+   footer{
     height: 100px;
     background-color: #E5ECF4;
     display: flex;
@@ -493,12 +522,12 @@
     
    }
 
-   #footer li{
+   footer li{
     font-size: 10px;
     line-height: 15px;
    }
 
-   #footer ul{
+   footer ul{
     list-style: none;
    }
 

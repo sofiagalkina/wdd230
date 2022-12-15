@@ -56,9 +56,9 @@ function displayCards(card){
   <p><strong>Email:</strong> ${card.email}</p>
   <p><strong>Services:</strong> ${card.services}</p>
 
-  <ul><li><strong>Ordinance Schedule:</strong> ${card.ordinance_schedule}</li>
-  <li><strong>Session Schedule:</strong> ${card.session_schedule}</li>
-  <li><strong>Closure Schedule:</strong>  ${card.closure_schedule}</li></ul>`;
+  <p><strong>Ordinance Schedule:</strong> ${card.ordinance_schedule}</p>
+  <p><strong>Session Schedule:</strong> ${card.session_schedule}</p>
+  <p><strong>Closure Schedule:</strong>  ${card.closure_schedule}</p>`;
   cardview.appendChild(cardelt);
 }
 

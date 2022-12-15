@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--    CSS   -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/small.css" />
+    <link rel="stylesheet" media="(min-width:768px)" href="./css/medium.css" />
+    <link rel="stylesheet" media="(min-width:992px)" href="./css/large.css" />
+    <!--    JS    -->
+    <script defer src="./js/main.js"></script>
+    <script
+      defer
+      src="https://kit.fontawesome.com/3136e7c99c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/weather.js"></script>
+
+    <title>The Temple Inn & Suites</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img
+          class="logo"
+          src="./images/horizlogo300.png"
+          alt="logo of the temple inn & suites"
+          onclick="window.location.href='./index.html'"
+        />
+      </div>
+
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+    <nav>
+      <div class="header--navigation">
+        <ul class="header--navigation__list">
+          <li class="fatface active" onclick="window.location.href='./index.html'">
+            Home
+          </li>
+          <li class="fatface" onclick="window.location.href='./temples.html'">
+            Temples
+          </li>
+          <li
+            class="fatface"
+            onclick="window.location.href='./reservation.html'"
+          >
+            Reservation
+          </li>
+          <li class="fatface" onclick="window.location.href='./services.html'">
+            Services
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </header>
+
+
+    <!--    BOOK TODAY-->
+    <figcaption class="calltoaction"> <span id='booknow' onclick="window.location.href='reservation.html'">Reserve Your Stay</span></figcaption>
+
+    <!--    BUSINESS DESCRIPTION    -->
+
+    <main>
+        <section id="attributions">
+        <strong>Weather Provided by:</strong>
+        <p>https://openweathermap.org/</p>
+        <strong> Information about temples provided by:</strong>
+        <p>www.churchofjesuschrist.org/?lang=eng</p>
+        <p>www.churchofjesuschristtemples.org/</p>
+        <strong>Location: </strong> <p> www.google.com/maps</p>
+        <strong>Suites information:</strong> <p>www.intownsuites.com/suites-amenities/</p>
+        <strong>Carousel pictures: </strong> <p>www.alivestudios.com.au/3d-rendering</p>
+        <strong>Weddings and missionaries:</strong><p>www.bellavistadesigns.com/services/</p>
+    </section>
+    </main>
+
+
+    
+
+    
+
+    <footer>
+      <div>
+        <img
+          class="footer--logo"
+          src="./images/horizlogo300.png"
+          alt="picture of the temple inn & suits"
+          onclick="window.location.href='./index.html'"
+        />
+      </div>
+
+      <div>
+        <ul>
+          <li class="fatface">&copy; Temple Inn & Suite, 2022</li>
+          <li class="fatface">
+            Bethesda, MD
+            <img
+              src="./images/Google-maps-icon-on-transparent-background-PNG.png"
+              class="location"
+              onclick="window.location.href='https://goo.gl/maps/Gsx5jF7qBbnbt1Lk8'"
+            />
+          </li>
+          <li class="fatface">Sofia Galkina ︳WDD230 ︳(208) 497-1871</li>
+          <li  class="fatface"> Last Modified: <span id="modify"></span></li>
+          <li class="fatface attributions"><a href="attributions.html">- Attributions Page -</a></li>
+
+        </ul>
+      </div>
+
+      <div class="footer--icon">
+        <i
+          class="fa-brands fa-instagram"
+          onclick="window.location.href='https://www.instagram.com/'"
+        ></i>
+        <i
+          class="fa-brands fa-tiktok"
+          onclick="window.location.href='https://www.tiktok.com/'"
+        ></i>
+        <i
+          class="fa-brands fa-facebook"
+          onclick="window.location.href='https://www.facebook.com/'"
+        ></i>
+      </div>
+    </footer>
+  </body>
+</html>

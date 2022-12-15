@@ -17,6 +17,10 @@
 
 }
 
+footer{
+    margin-top: 30px;
+}
+
 
 
 /*      CALL TO ACTION      */
@@ -104,7 +108,7 @@
 
    .logo{
     position: relative;
-    left: 180px;
+    left: 260px;
    }
 
    .header--navigation__list.active{
@@ -128,6 +132,11 @@
 
 
    /*   MAIN    */
+
+   #business-description,
+.temple-content{
+    margin: 10px;
+}
 
    main ul li{
     
@@ -269,6 +278,8 @@ main ul{
        #cardview span{
         font-weight: 100;
         font-size: 32px;
+        text-align: center;
+
         
        }
 
@@ -284,10 +295,11 @@ main ul{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: left;
         font-family: 'Abril Fatface', cursive;
 
        }
+
 
        #cardview ul{
         list-style: none;
@@ -324,25 +336,24 @@ main ul{
        /*       RESERVATION     */
 
        .box{
-        font-family: 'Abril Fatface', cursive;
-        
-       }
-
-
-       .box{
-        text-align: center;
         border: 1px solid #656256;
-        margin: 20px;
-        padding: 10px;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+       
        }
+
+       
+
+     
+
 
        .box label{
         font-weight: 600;
+        position: relative;
        }
-       .box input, label{
-        font-family: 'Abril Fatface', cursive;
 
-       }
        label.myInput {
         display: block;
         padding-top: 1rem;
@@ -363,7 +374,6 @@ main ul{
         padding: .5rem ;
         width: 20rem;
         max-width: 20rem;
-        text-align: center;
         margin: auto;
     }
     
@@ -374,7 +384,6 @@ main ul{
         border-radius: 7px;
         padding: 6px;
         background-color: #FFDCBA;
-        font-family: 'Abril Fatface', cursive;
         font-weight: 700;
         transition: .3s;
     }
@@ -544,6 +553,8 @@ main ul{
     height: 100px;
     width: 100px;
     transition: .4s ease;
+    position: relative;
+    left: 20px;
    }
 
    .footer--logo:hover{
@@ -574,4 +585,10 @@ main ul{
 
    .footer--icon i{
     padding: 5px;
+   }
+
+   /*       ATTRIBUTIONS        */
+   #attributions{
+    text-align: center;
+    padding: 10px 0;
    }

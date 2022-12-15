@@ -11,10 +11,11 @@
        }
 
        .logo{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         position: relative;
         bottom: 5px;
+        left: 20px;
      
        }
     
@@ -115,9 +116,14 @@
 
    /*           TEMPLES         */
 
-   #cardview{
+  /* #cardview{
     display: grid;
     grid-template-columns: auto auto;
+   }
+   */
+
+   #cardview{
+    display: flex;
    }
    
  #cardview div{
@@ -223,6 +229,12 @@
 
    footer ul{
     list-style: none;
+   }
+
+
+   /*   ATTRIBUTIONS    */
+   #attributions{
+    padding: 20px 0;
    }
 
 
